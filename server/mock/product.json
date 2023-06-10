@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Iphone 14",
+    "popular": false,
+    "price": 78999,
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e5729",
+    "color": "silver",
+    "description": {
+      "RAM": 6,
+      "processor": "A15 Bionic",
+      "core": 6,
+      "HDD": 128,
+      "diagonal": 6.1
+    }
+  },
+  {
+    "name": "Iphone 14 Pro",
+    "popular": false,
+    "price": 118999,
+    "color": "black",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e5729",
+    "description": {
+      "RAM": 6,
+      "processor": "A16 Bionic",
+      "core": 6,
+      "HDD": 256,
+      "diagonal": 6.1
+    }
+  },
+  {
+    "name": "Iphone 14 Pro Max",
+    "popular": true,
+    "price": 155999,
+    "color": "white",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e5729",
+    "description": {
+      "RAM": 6,
+      "processor": "A16 Bionic",
+      "core": 6,
+      "HDD": 256,
+      "diagonal": 6.7
+    }
+  },
+  {
+    "name": "Samsung Galaxy A54",
+    "popular": false,
+    "price": 33499,
+    "color": "black",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e5728",
+    "description": {
+      "RAM": 6,
+      "processor": "Samsung Exynos 1380",
+      "core": 8,
+      "HDD": 128,
+      "diagonal": 6.4
+    }
+  },
+  {
+    "name": "Samsung Galaxy S21",
+    "popular": false,
+    "price": 47399,
+    "color": "black",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e5728",
+    "description": {
+      "RAM": 8,
+      "processor": "Samsung Exynos 2100",
+      "core": 8,
+      "HDD": 256,
+      "diagonal": 6.4
+    }
+  },
+  {
+    "name": "Samsung Galaxy S23",
+    "popular": true,
+    "price": 149990,
+    "color": "black",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e5728",
+    "description": {
+      "RAM": 8,
+      "processor": "Qualcomm Snapdragon 8 Gen 2",
+      "core": 8,
+      "HDD": 512,
+      "diagonal": 6.8
+    }
+  }
+]
