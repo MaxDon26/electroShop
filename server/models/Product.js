@@ -8,7 +8,7 @@ const schema = new Schema(
     },
     popular: Boolean,
     price: Number,
-    image: String,
+    image: [{ type: String }],
     color: { type: String, enum: ["white", "black", "silver"] },
     category: { type: Schema.Types.ObjectId, ref: "Category" },
     vendor: { type: Schema.Types.ObjectId, ref: "Vendor" },

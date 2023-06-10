@@ -1,4 +1,5 @@
 const Service = require("../services/product.service");
+const fileService = require("../services/file.service");
 
 exports.getProductList = async function (req, res) {
   const page = req.params.page ? req.params.page : 1;
@@ -19,7 +20,8 @@ exports.getProductList = async function (req, res) {
 
 exports.addProduct = async function (req, res) {
   try {
-    const newProduct = req.body;
+    const image = fileService.fileSave(req.files);
+    const newProduct = { ...req.body, image };
     const content = await Service.addProduct(newProduct);
     return res.status(200).json({
       status: 200,
@@ -32,7 +34,7 @@ exports.addProduct = async function (req, res) {
 };
 
 exports.removeProduct = async function (req, res) {
-  const id = req.params.id;
+  const id = req.body.id;
 
   try {
     const content = await Service.removeProduct(id);
@@ -40,6 +42,26 @@ exports.removeProduct = async function (req, res) {
       status: 200,
       content,
       message: "Продукт удален!",
+    });
+  } catch (error) {
+    return res.status(400).json({ status: 400, message: error.message });
+  }
+};
+
+exports.updateProduct = async function (req, res) {
+  const id = req.params.id;
+
+  try {
+    const image = fileService.fileSave(req.files);
+
+    const content = await Service.updateProduct(id, {
+      ...req.body,
+      image,
+    });
+    return res.status(200).json({
+      status: 200,
+      content,
+      message: "Продукт обновлен!",
     });
   } catch (error) {
     return res.status(400).json({ status: 400, message: error.message });

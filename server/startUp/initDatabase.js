@@ -17,7 +17,7 @@ module.exports = async () => {
     await createInitialEntity(Vendor, vendorMock);
   }
   if (productMock.length !== product.length) {
-    // await createInitialEntity(Product, productMock);
+    await createInitialEntity(Product, productMock);
   }
 };
 

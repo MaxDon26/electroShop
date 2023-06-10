@@ -39,3 +39,14 @@ exports.removeProduct = async function (id) {
     throw Error("Ошибка удаления товара");
   }
 };
+
+exports.updateProduct = async function (id, payload) {
+  try {
+    const updateProduct = await Model.findByIdAndUpdate(id, payload, {
+      new: true,
+    });
+    return updateProduct;
+  } catch (error) {
+    throw Error("Ошибка удаления товара");
+  }
+};

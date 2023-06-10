@@ -15,3 +15,8 @@ exports.getList = async function (req, res) {
     return res.status(400).json({ status: 400, message: e.message });
   }
 };
+exports.getCategory = async function (id) {
+  const category = await Service.getCategory(id);
+
+  return category;
+};

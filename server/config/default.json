@@ -1,4 +1,5 @@
 {
+  "baseURL": "http://localhost",
   "port": 8080,
   "mongoUri": "mongodb+srv://stepan:Qwerty123@cluster0.rwekd2w.mongodb.net/Electro?retryWrites=true&w=majority",
   "accessSecret": "super secret from backend",
