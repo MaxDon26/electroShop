@@ -1,0 +1,9 @@
+.sorting {
+  display: flex;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16);
+
+  width: 100%;
+  padding: 20px;
+}

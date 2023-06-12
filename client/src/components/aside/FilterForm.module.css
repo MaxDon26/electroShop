@@ -1,0 +1,8 @@
+.aside {
+  margin-right: 20px;
+  width: 278px;
+  z-index: 10;
+  height: 500px;
+  position: sticky;
+  top: 0;
+}

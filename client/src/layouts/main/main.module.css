@@ -1,0 +1,15 @@
+.productWrapper {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 20px;
+  flex-grow: 1;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.main {
+  margin-top: 40px;
+}

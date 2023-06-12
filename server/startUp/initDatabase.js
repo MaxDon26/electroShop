@@ -28,9 +28,7 @@ async function createInitialEntity(Model, data) {
     data.map(async (item) => {
       try {
         const newItem = new Model(item);
-
         await newItem.save();
-
         return newItem;
       } catch (e) {
         return e;

@@ -1,0 +1,33 @@
+.card {
+  /* flex-direction: column; */
+  gap: 10px;
+}
+
+.info {
+  font-size: 18px;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info a {
+  color: inherit;
+  font-size: 14px;
+}
+
+a.name {
+  color: inherit;
+  font-size: 1em;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.name:hover {
+  color: #f1a534;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 700;
+}

@@ -1,11 +1,20 @@
 const Model = require("../models/Product");
 
+exports.getProductsName = async function () {
+  try {
+    const data = await Model.find();
+    return data.map((el) => el.name);
+  } catch (error) {
+    throw Error("Error with products");
+  }
+};
+
 exports.getProductList = async function (query) {
   try {
     const data = await Model.find(query);
     return data;
   } catch (error) {
-    throw Error("Error with category");
+    throw Error("Error with products");
   }
 };
 
@@ -14,7 +23,7 @@ exports.getProduct = async function (id) {
     const data = await Model.findById(id);
     return data;
   } catch (error) {
-    throw Error("Error with category");
+    throw Error("Error with products");
   }
 };
 

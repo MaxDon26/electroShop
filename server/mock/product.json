@@ -2,10 +2,25 @@
   {
     "name": "Iphone 14",
     "popular": false,
-    "price": 78999,
+    "price": 69990,
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5729",
-    "color": "silver",
+    "color": "white",
+    "description": {
+      "RAM": 6,
+      "processor": "A15 Bionic",
+      "core": 6,
+      "HDD": 128,
+      "diagonal": 6.1
+    }
+  },
+  {
+    "name": "Iphone 14",
+    "popular": false,
+    "price": 69990,
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e5729",
+    "color": "black",
     "description": {
       "RAM": 6,
       "processor": "A15 Bionic",
@@ -17,7 +32,7 @@
   {
     "name": "Iphone 14 Pro",
     "popular": false,
-    "price": 118999,
+    "price": 96990,
     "color": "black",
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5729",
@@ -30,10 +45,10 @@
     }
   },
   {
-    "name": "Iphone 14 Pro Max",
-    "popular": true,
-    "price": 155999,
-    "color": "white",
+    "name": "Iphone 14 Pro",
+    "popular": false,
+    "price": 96990,
+    "color": "silver",
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5729",
     "description": {
@@ -41,6 +56,96 @@
       "processor": "A16 Bionic",
       "core": 6,
       "HDD": 256,
+      "diagonal": 6.1
+    }
+  },
+  {
+    "name": "Iphone 14 Pro",
+    "popular": false,
+    "price": 126990,
+    "color": "black",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e5729",
+    "description": {
+      "RAM": 6,
+      "processor": "A16 Bionic",
+      "core": 6,
+      "HDD": 512,
+      "diagonal": 6.1
+    }
+  },
+  {
+    "name": "Iphone 14 Pro Max",
+    "popular": true,
+    "price": 116990,
+    "color": "silver",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e5729",
+    "description": {
+      "RAM": 6,
+      "processor": "A16 Bionic",
+      "core": 6,
+      "HDD": 256,
+      "diagonal": 6.7
+    }
+  },
+  {
+    "name": "Iphone 14 Pro Max",
+    "popular": true,
+    "price": 139990,
+    "color": "silver",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e5729",
+    "description": {
+      "RAM": 6,
+      "processor": "A16 Bionic",
+      "core": 6,
+      "HDD": 512,
+      "diagonal": 6.7
+    }
+  },
+  {
+    "name": "Iphone 14 Pro Max",
+    "popular": true,
+    "price": 116990,
+    "color": "black",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e5729",
+    "description": {
+      "RAM": 6,
+      "processor": "A16 Bionic",
+      "core": 6,
+      "HDD": 256,
+      "diagonal": 6.7
+    }
+  },
+  {
+    "name": "Iphone 14 Pro Plus",
+    "popular": true,
+    "price": 76990,
+    "color": "white",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e5729",
+    "description": {
+      "RAM": 6,
+      "processor": "A15 Bionic",
+      "core": 6,
+      "HDD": 256,
+      "diagonal": 6.7
+    }
+  },
+  {
+    "name": "Iphone 14 Pro Plus",
+    "popular": true,
+    "price": 85990,
+    "color": "black",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e5729",
+    "description": {
+      "RAM": 6,
+      "processor": "A15 Bionic",
+      "core": 6,
+      "HDD": 128,
       "diagonal": 6.7
     }
   },
@@ -62,8 +167,23 @@
   {
     "name": "Samsung Galaxy S21",
     "popular": false,
-    "price": 47399,
+    "price": 46899,
     "color": "black",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e5728",
+    "description": {
+      "RAM": 8,
+      "processor": "Samsung Exynos 2100",
+      "core": 8,
+      "HDD": 256,
+      "diagonal": 6.4
+    }
+  },
+  {
+    "name": "Samsung Galaxy S21",
+    "popular": false,
+    "price": 46899,
+    "color": "white",
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5728",
     "description": {
@@ -77,7 +197,22 @@
   {
     "name": "Samsung Galaxy S23",
     "popular": true,
-    "price": 149990,
+    "price": 74999,
+    "color": "black",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e5728",
+    "description": {
+      "RAM": 8,
+      "processor": "Qualcomm Snapdragon 8 Gen 2",
+      "core": 8,
+      "HDD": 256,
+      "diagonal": 6.8
+    }
+  },
+  {
+    "name": "Samsung Galaxy S23 Ultra",
+    "popular": true,
+    "price": 114999,
     "color": "black",
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5728",
@@ -87,6 +222,1014 @@
       "core": 8,
       "HDD": 512,
       "diagonal": 6.8
+    }
+  },
+  {
+    "name": "Samsung Galaxy S23 Ultra",
+    "popular": true,
+    "price": 147499,
+    "color": "black",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e5728",
+    "description": {
+      "RAM": 8,
+      "processor": "Qualcomm Snapdragon 8 Gen 2",
+      "core": 8,
+      "HDD": 1000,
+      "diagonal": 6.8
+    }
+  },
+  {
+    "name": "Xiaomi 13 Lite",
+    "popular": true,
+    "price": 31990,
+    "color": "black",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e572a",
+    "description": {
+      "RAM": 8,
+      "processor": "Qualcomm Snapdragon 7 Gen 1",
+      "core": 8,
+      "HDD": 256,
+      "diagonal": 6.55
+    }
+  },
+  {
+    "name": "Xiaomi 12",
+    "popular": false,
+    "price": 44990,
+    "color": "black",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e572a",
+    "description": {
+      "RAM": 12,
+      "processor": "Qualcomm Snapdragon 8 Gen 1",
+      "core": 8,
+      "HDD": 256,
+      "diagonal": 6.28
+    }
+  },
+  {
+    "name": "Xiaomi 12 Lite",
+    "popular": false,
+    "price": 29890,
+    "color": "black",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e572a",
+    "description": {
+      "RAM": 8,
+      "processor": "Qualcomm Snapdragon 778G",
+      "core": 8,
+      "HDD": 256,
+      "diagonal": 6.55
+    }
+  },
+  {
+    "name": "Xiaomi POCO F5",
+    "popular": true,
+    "price": 32990,
+    "color": "White",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e572a",
+    "description": {
+      "RAM": 8,
+      "processor": "Qualcomm Snapdragon 7 Gen 2",
+      "core": 8,
+      "HDD": 256,
+      "diagonal": 6.67
+    }
+  },
+  {
+    "name": "Xiaomi Redmi Note 12 Pro",
+    "popular": true,
+    "price": 22990,
+    "color": "White",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e572a",
+    "description": {
+      "RAM": 6,
+      "processor": "Qualcomm Snapdragon 732G",
+      "core": 8,
+      "HDD": 128,
+      "diagonal": 6.67
+    }
+  },
+  {
+    "name": "Xiaomi Redmi Note 12 Pro",
+    "popular": true,
+    "price": 25490,
+    "color": "Black",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e572a",
+    "description": {
+      "RAM": 8,
+      "processor": "Qualcomm Snapdragon 732G",
+      "core": 8,
+      "HDD": 256,
+      "diagonal": 6.67
+    }
+  },
+  {
+    "name": "Xiaomi Poco X4 GT",
+    "popular": true,
+    "price": 27990,
+    "color": "Silver",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e572a",
+    "description": {
+      "RAM": 8,
+      "processor": "Dimensity 8100",
+      "core": 8,
+      "HDD": 256,
+      "diagonal": 6.6
+    }
+  },
+  {
+    "name": "HUAWEI P60 Pro",
+    "popular": true,
+    "price": 69990,
+    "color": "White",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e572b",
+    "description": {
+      "RAM": 8,
+      "processor": "Snapdragon 8 Gen 1",
+      "core": 8,
+      "HDD": 256,
+      "diagonal": 6.67
+    }
+  },
+  {
+    "name": "HUAWEI P60 Pro",
+    "popular": true,
+    "price": 84999,
+    "color": "Black",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e572b",
+    "description": {
+      "RAM": 12,
+      "processor": "Snapdragon 8 Gen 1",
+      "core": 8,
+      "HDD": 512,
+      "diagonal": 6.67
+    }
+  },
+  {
+    "name": "HUAWEI Mate50 Pro",
+    "popular": true,
+    "price": 69999,
+    "color": "Silver",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e572b",
+    "description": {
+      "RAM": 8,
+      "processor": "Snapdragon 8 Gen 1",
+      "core": 8,
+      "HDD": 512,
+      "diagonal": 6.74
+    }
+  },
+  {
+    "name": "HUAWEI Mate Xs 2",
+    "popular": false,
+    "price": 119999,
+    "color": "Black",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e572b",
+    "description": {
+      "RAM": 8,
+      "processor": "Snapdragon 888",
+      "core": 8,
+      "HDD": 512,
+      "diagonal": 7.8
+    }
+  },
+  {
+    "name": "HUAWEI Mate X3",
+    "popular": false,
+    "price": 149999,
+    "color": "Black",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e572b",
+    "description": {
+      "RAM": 12,
+      "processor": "Snapdragon 8 Gen 1",
+      "core": 8,
+      "HDD": 512,
+      "diagonal": 7.85
+    }
+  },
+  {
+    "name": "HUAWEI Mate 50",
+    "popular": true,
+    "price": 56999,
+    "color": "Black",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e572b",
+    "description": {
+      "RAM": 8,
+      "processor": "Snapdragon 8 Gen 1",
+      "core": 8,
+      "HDD": 256,
+      "diagonal": 6.7
+    }
+  },
+  {
+    "name": "HUAWEI Mate 50",
+    "popular": true,
+    "price": 56999,
+    "color": "Silver",
+    "category": "64842310c2364657951e571f",
+    "vendor": "64842311c2364657951e572b",
+    "description": {
+      "RAM": 8,
+      "processor": "Snapdragon 8 Gen 1",
+      "core": 8,
+      "HDD": 256,
+      "diagonal": 6.7
+    }
+  },
+  {
+    "name": "Apple MacBook Air",
+    "popular": true,
+    "price": 110399,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e5729",
+    "color": "black",
+    "description": {
+      "RAM": 8,
+      "processor": "Apple M1",
+      "core": 8,
+      "HDD": 256,
+      "diagonal": 13.6
+    }
+  },
+  {
+    "name": "Apple MacBook Air",
+    "popular": true,
+    "price": 110399,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e5729",
+    "color": "silver",
+    "description": {
+      "RAM": 8,
+      "processor": "Apple M1",
+      "core": 8,
+      "HDD": 256,
+      "diagonal": 13.6
+    }
+  },
+  {
+    "name": "Apple MacBook Pro",
+    "popular": false,
+    "price": 116799,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e5729",
+    "color": "silver",
+    "description": {
+      "RAM": 8,
+      "processor": "Apple M2",
+      "core": 8,
+      "HDD": 256,
+      "diagonal": 13.3
+    }
+  },
+  {
+    "name": "Apple MacBook Pro",
+    "popular": false,
+    "price": 135199,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e5729",
+    "color": "silver",
+    "description": {
+      "RAM": 8,
+      "processor": "Apple M2",
+      "core": 8,
+      "HDD": 512,
+      "diagonal": 13.3
+    }
+  },
+  {
+    "name": "ASUS VivoBook PRO 14 M3401QA-KM133W",
+    "popular": true,
+    "price": 66999,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e572e",
+    "color": "black",
+    "description": {
+      "RAM": 16,
+      "processor": "AMD Ryzen 5 5600H",
+      "core": 6,
+      "HDD": 512,
+      "diagonal": 14
+    }
+  },
+  {
+    "name": "ASUS VivoBook PRO 14 K3400PA-KM043W",
+    "popular": true,
+    "price": 65999,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e572e",
+    "color": "black",
+    "description": {
+      "RAM": 16,
+      "processor": "Intel Core i5-11300H",
+      "core": 4,
+      "HDD": 512,
+      "diagonal": 14
+    }
+  },
+  {
+    "name": "ASUS TUF Gaming F15 FX506HCB-HN210W",
+    "popular": false,
+    "price": 84999,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e572e",
+    "color": "black",
+    "description": {
+      "RAM": 16,
+      "processor": "Intel Core i5-11400H",
+      "core": 6,
+      "HDD": 512,
+      "diagonal": 15.6
+    }
+  },
+  {
+    "name": "ASUS ZenBook 14 Flip OLED UP5401EA-KN118W",
+    "popular": false,
+    "price": 92999,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e572e",
+    "color": "black",
+    "description": {
+      "RAM": 8,
+      "processor": "Intel Core i5-1135G7",
+      "core": 4,
+      "HDD": 512,
+      "diagonal": 15.6
+    }
+  },
+  {
+    "name": "ASUS VivoBook PRO 15 OLED K3500PA-L1104W",
+    "popular": true,
+    "price": 57999,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e572e",
+    "color": "black",
+    "description": {
+      "RAM": 8,
+      "processor": "Intel Core i5-1135G7",
+      "core": 4,
+      "HDD": 256,
+      "diagonal": 15.6
+    }
+  },
+  {
+    "name": "MSI Modern 15 B12M-209RU",
+    "popular": true,
+    "price": 57999,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e572f",
+    "color": "black",
+    "description": {
+      "RAM": 16,
+      "processor": "Intel Core i5-1235U",
+      "core": 10,
+      "HDD": 512,
+      "diagonal": 15.6
+    }
+  },
+  {
+    "name": "MSI Modern 14 C12M-229RU",
+    "popular": true,
+    "price": 46499,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e572f",
+    "color": "black",
+    "description": {
+      "RAM": 16,
+      "processor": "Intel Core i5-1235U",
+      "core": 10,
+      "HDD": 512,
+      "diagonal": 14
+    }
+  },
+  {
+    "name": "MSI Katana GF76 12UC-258RU",
+    "popular": false,
+    "price": 85999,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e572f",
+    "color": "black",
+    "description": {
+      "RAM": 16,
+      "processor": "Intel Core i5-12450H",
+      "core": 8,
+      "HDD": 512,
+      "diagonal": 17.3
+    }
+  },
+  {
+    "name": "MSI Vector GP77 13VG-065RU",
+    "popular": false,
+    "price": 188599,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e572f",
+    "color": "black",
+    "description": {
+      "RAM": 16,
+      "processor": "Intel Core i7-13700H",
+      "core": 14,
+      "HDD": 1000,
+      "diagonal": 17.3
+    }
+  },
+  {
+    "name": "Acer Aspire 3 A317-54-38F2",
+    "popular": true,
+    "price": 56999,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e572d",
+    "color": "silver",
+    "description": {
+      "RAM": 8,
+      "processor": "Intel Core i3-1215U",
+      "core": 8,
+      "HDD": 512,
+      "diagonal": 17.3
+    }
+  },
+  {
+    "name": "Acer Aspire 3 A317-54-38F2",
+    "popular": true,
+    "price": 56999,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e572d",
+    "color": "silver",
+    "description": {
+      "RAM": 8,
+      "processor": "Intel Core i3-1215U",
+      "core": 6,
+      "HDD": 512,
+      "diagonal": 17.3
+    }
+  },
+  {
+    "name": "Acer Aspire 5 A515-47-R0RW",
+    "popular": false,
+    "price": 62999,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e572d",
+    "color": "silver",
+    "description": {
+      "RAM": 16,
+      "processor": "AMD Ryzen 5 5625U",
+      "core": 6,
+      "HDD": 512,
+      "diagonal": 15.6
+    }
+  },
+  {
+    "name": "Acer Aspire 5 A517-53-599L",
+    "popular": false,
+    "price": 64999,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e572d",
+    "color": "black",
+    "description": {
+      "RAM": 8,
+      "processor": "Intel Core i5-1235U",
+      "core": 10,
+      "HDD": 512,
+      "diagonal": 17.3
+    }
+  },
+  {
+    "name": "HUAWEI MateBook D16 RLEF-X",
+    "popular": true,
+    "price": 89999,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e572b",
+    "color": "black",
+    "description": {
+      "RAM": 16,
+      "processor": "Intel Core i7-12700H",
+      "core": 14,
+      "HDD": 512,
+      "diagonal": 16
+    }
+  },
+  {
+    "name": "HUAWEI MateBook D 15 BoDE-WDH9",
+    "popular": true,
+    "price": 49999,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e572b",
+    "color": "black",
+    "description": {
+      "RAM": 8,
+      "processor": "Intel Core i5-1155G7",
+      "core": 4,
+      "HDD": 512,
+      "diagonal": 15.6
+    }
+  },
+  {
+    "name": "HUAWEI MateBook D 16 RLEF-W5651D",
+    "popular": true,
+    "price": 69999,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e572b",
+    "color": "black",
+    "description": {
+      "RAM": 16,
+      "processor": "Intel Core i5-12450H",
+      "core": 8,
+      "HDD": 512,
+      "diagonal": 16
+    }
+  },
+  {
+    "name": "HUAWEI MateBook D 16 RLEF-W5651D",
+    "popular": true,
+    "price": 59999,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e572b",
+    "color": "silver",
+    "description": {
+      "RAM": 16,
+      "processor": "Core i5-1135G7",
+      "core": 4,
+      "HDD": 512,
+      "diagonal": 15.6
+    }
+  },
+  {
+    "name": "HUAWEI MateBook 16s CREF-X",
+    "popular": true,
+    "price": 124999,
+    "category": "64842310c2364657951e5720",
+    "vendor": "64842311c2364657951e572b",
+    "color": "black",
+    "description": {
+      "RAM": 16,
+      "processor": "Intel Core i9-12900H",
+      "core": 14,
+      "HDD": 1000,
+      "diagonal": 16
+    }
+  },
+  {
+    "name": "Apple Watch SE 2022 40mm",
+    "popular": true,
+    "price": 26699,
+    "category": "64842310c2364657951e5722",
+    "vendor": "64842311c2364657951e5729",
+    "color": "black",
+    "description": {
+      "processor": "Apple S8",
+      "core": 2,
+      "HDD": 32
+    }
+  },
+  {
+    "name": "Apple Watch SE 2022 44mm",
+    "popular": true,
+    "price": 28499,
+    "category": "64842310c2364657951e5722",
+    "vendor": "64842311c2364657951e5729",
+    "color": "black",
+    "description": {
+      "processor": "Apple S8",
+      "core": 2,
+      "HDD": 32
+    }
+  },
+  {
+    "name": "Apple Watch SE 2022 44mm",
+    "popular": true,
+    "price": 28499,
+    "category": "64842310c2364657951e5722",
+    "vendor": "64842311c2364657951e5729",
+    "color": "silver",
+    "description": {
+      "processor": "Apple S8",
+      "core": 2,
+      "HDD": 32
+    }
+  },
+  {
+    "name": "Apple Watch Series 8 45mm",
+    "popular": false,
+    "price": 41199,
+    "category": "64842310c2364657951e5722",
+    "vendor": "64842311c2364657951e5729",
+    "color": "silver",
+    "description": {
+      "processor": "Apple S8",
+      "core": 2,
+      "HDD": 32.768
+    }
+  },
+  {
+    "name": "Apple Watch Series 8 45mm",
+    "popular": false,
+    "price": 41199,
+    "category": "64842310c2364657951e5722",
+    "vendor": "64842311c2364657951e5729",
+    "color": "black",
+    "description": {
+      "processor": "Apple S8",
+      "core": 2,
+      "HDD": 32.768
+    }
+  },
+  {
+    "name": "Apple Watch Series 8 41mm",
+    "popular": false,
+    "price": 38649,
+    "category": "64842310c2364657951e5722",
+    "vendor": "64842311c2364657951e5729",
+    "color": "black",
+    "description": {
+      "processor": "Apple S8",
+      "core": 2,
+      "HDD": 32.768
+    }
+  },
+  {
+    "name": "Xiaomi Mi Smart Band 7",
+    "popular": true,
+    "price": 2999,
+    "category": "64842310c2364657951e5722",
+    "vendor": "64842311c2364657951e572a",
+    "color": "black",
+    "description": {
+      "RAM": 0.008,
+      "HDD": 0.128,
+      "diagonal": 1.62
+    }
+  },
+  {
+    "name": "Xiaomi Mi Smart Band 6",
+    "popular": true,
+    "price": 1999,
+    "category": "64842310c2364657951e5722",
+    "vendor": "64842311c2364657951e572a",
+    "color": "black",
+    "description": {
+      "RAM": 0.008,
+      "HDD": 0.128,
+      "diagonal": 1.56
+    }
+  },
+  {
+    "name": "Samsung Galaxy Watch5 Pro",
+    "popular": false,
+    "price": 29999,
+    "category": "64842310c2364657951e5722",
+    "vendor": "64842311c2364657951e5728",
+    "color": "black",
+    "description": {
+      "RAM": 1.5,
+      "processor": "Exynos W920",
+      "core": 2,
+      "HDD": 16,
+      "diagonal": 1.4
+    }
+  },
+  {
+    "name": "Samsung Galaxy Watch4 Classic 46mm",
+    "popular": true,
+    "price": 18999,
+    "category": "64842310c2364657951e5722",
+    "vendor": "64842311c2364657951e5728",
+    "color": "silver",
+    "description": {
+      "RAM": 1.5,
+      "processor": "Exynos W920",
+      "core": 2,
+      "HDD": 16,
+      "diagonal": 1.4
+    }
+  },
+  {
+    "name": "Samsung Galaxy Watch4 Classic 46mm",
+    "popular": false,
+    "price": 18999,
+    "category": "64842310c2364657951e5722",
+    "vendor": "64842311c2364657951e5728",
+    "color": "black",
+    "description": {
+      "RAM": 1.5,
+      "processor": "Exynos W920",
+      "core": 2,
+      "HDD": 16,
+      "diagonal": 1.4
+    }
+  },
+  {
+    "name": "Samsung Galaxy Watch5 40mm",
+    "popular": true,
+    "price": 16999,
+    "category": "64842310c2364657951e5722",
+    "vendor": "64842311c2364657951e5728",
+    "color": "black",
+    "description": {
+      "RAM": 1.5,
+      "processor": "Exynos W920",
+      "core": 2,
+      "HDD": 16,
+      "diagonal": 1.2
+    }
+  },
+  {
+    "name": "HUAWEI WATCH GT 3 Pro Titanium",
+    "popular": false,
+    "price": 20999,
+    "category": "64842310c2364657951e5722",
+    "vendor": "64842311c2364657951e572b",
+    "color": "black",
+    "description": {
+      "RAM": 1.5,
+      "HDD": 16,
+      "diagonal": 1.43
+    }
+  },
+  {
+    "name": "HUAWEI WATCH GT 3 42mm",
+    "popular": true,
+    "price": 16999,
+    "category": "64842310c2364657951e5722",
+    "vendor": "64842311c2364657951e572b",
+    "color": "white",
+    "description": {
+      "RAM": 1.5,
+      "HDD": 16,
+      "diagonal": 1.32
+    }
+  },
+  {
+    "name": "HUAWEI WATCH GT 3 42mm",
+    "popular": true,
+    "price": 16999,
+    "category": "64842310c2364657951e5722",
+    "vendor": "64842311c2364657951e572b",
+    "color": "black",
+    "description": {
+      "RAM": 1.5,
+      "HDD": 16,
+      "diagonal": 1.32
+    }
+  },
+  {
+    "name": "HUAWEI WATCH 3 Pro",
+    "popular": false,
+    "price": 29999,
+    "category": "64842310c2364657951e5722",
+    "vendor": "64842311c2364657951e572b",
+    "color": "black",
+    "description": {
+      "RAM": 2,
+      "HDD": 16,
+      "diagonal": 1.43
+    }
+  },
+  {
+    "name": "HUAWEI Band 7",
+    "popular": true,
+    "price": 2999,
+    "category": "64842310c2364657951e5722",
+    "vendor": "64842311c2364657951e572b",
+    "color": "black",
+    "description": {
+      "RAM": 0.008,
+      "HDD": 0.128,
+      "diagonal": 1.47
+    }
+  },
+  {
+    "name": "OLED LG OLED48C2RLA",
+    "popular": true,
+    "price": 129999,
+    "category": "64842310c2364657951e5721",
+    "vendor": "64842311c2364657951e572c",
+    "color": "black",
+    "description": {
+      "RAM": 2,
+      "processor": "LG a9 Gen 5",
+      "core": 4,
+      "diagonal": 48
+    }
+  },
+  {
+    "name": "OLED LG OLED55C2RLA",
+    "popular": false,
+    "price": 159999,
+    "category": "64842310c2364657951e5721",
+    "vendor": "64842311c2364657951e572c",
+    "color": "black",
+    "description": {
+      "RAM": 2,
+      "processor": "LG a9 Gen 5",
+      "core": 4,
+      "diagonal": 55
+    }
+  },
+  {
+    "name": "OLED LG OLED65C2RLA",
+    "popular": false,
+    "price": 219999,
+    "category": "64842310c2364657951e5721",
+    "vendor": "64842311c2364657951e572c",
+    "color": "black",
+    "description": {
+      "RAM": 4,
+      "processor": "LG a9 Gen 5",
+      "core": 4,
+      "diagonal": 65
+    }
+  },
+  {
+    "name": "OLED LG OLED77C2RLA",
+    "popular": false,
+    "price": 307999,
+    "category": "64842310c2364657951e5721",
+    "vendor": "64842311c2364657951e572c",
+    "color": "black",
+    "description": {
+      "RAM": 4,
+      "processor": "LG a9 Gen 5",
+      "core": 4,
+      "diagonal": 77
+    }
+  },
+  {
+    "name": "LED LG 43UQ76003LD",
+    "popular": true,
+    "price": 40499,
+    "category": "64842310c2364657951e5721",
+    "vendor": "64842311c2364657951e572c",
+    "color": "black",
+    "description": {
+      "RAM": 2,
+      "processor": "LG a5 Gen 5",
+      "core": 2,
+      "diagonal": 43
+    }
+  },
+  {
+    "name": "LED LG 55UQ76003LD",
+    "popular": true,
+    "price": 64999,
+    "category": "64842310c2364657951e5721",
+    "vendor": "64842311c2364657951e572c",
+    "color": "black",
+    "description": {
+      "RAM": 2,
+      "processor": "LG a5 Gen 5",
+      "core": 2,
+      "diagonal": 55
+    }
+  },
+  {
+    "name": "LED LG 55UQ76003LD",
+    "popular": true,
+    "price": 49499,
+    "category": "64842310c2364657951e5721",
+    "vendor": "64842311c2364657951e572c",
+    "color": "black",
+    "description": {
+      "RAM": 2,
+      "processor": "LG a5 Gen 5",
+      "core": 2,
+      "diagonal": 50
+    }
+  },
+  {
+    "name": "LED LG 55UQ76003LD",
+    "popular": false,
+    "price": 82999,
+    "category": "64842310c2364657951e5721",
+    "vendor": "64842311c2364657951e572c",
+    "color": "black",
+    "description": {
+      "RAM": 2,
+      "processor": "LG a5 Gen 5",
+      "core": 2,
+      "diagonal": 65
+    }
+  },
+  {
+    "name": "LED Samsung UE43AU7100UXCE",
+    "popular": false,
+    "price": 38799,
+    "category": "64842310c2364657951e5721",
+    "vendor": "64842311c2364657951e5728",
+    "color": "black",
+    "description": {
+      "RAM": 1,
+      "processor": "Crystal Processor 4K",
+      "core": 2,
+      "diagonal": 43
+    }
+  },
+  {
+    "name": "LED Samsung UE50AU7100UXCE",
+    "popular": false,
+    "price": 42999,
+    "category": "64842310c2364657951e5721",
+    "vendor": "64842311c2364657951e5728",
+    "color": "black",
+    "description": {
+      "RAM": 1,
+      "processor": "Crystal Processor 4K",
+      "core": 2,
+      "diagonal": 50
+    }
+  },
+  {
+    "name": "LED Samsung UE58AU7100UXCE",
+    "popular": true,
+    "price": 59999,
+    "category": "64842310c2364657951e5721",
+    "vendor": "64842311c2364657951e5728",
+    "color": "black",
+    "description": {
+      "RAM": 2,
+      "processor": "Crystal Processor 4K",
+      "core": 2,
+      "diagonal": 58
+    }
+  },
+  {
+    "name": "LED Samsung UE75AU7100UXCE",
+    "popular": false,
+    "price": 99999,
+    "category": "64842310c2364657951e5721",
+    "vendor": "64842311c2364657951e5728",
+    "color": "black",
+    "description": {
+      "RAM": 2,
+      "processor": "Crystal Processor 4K",
+      "core": 2,
+      "diagonal": 75
+    }
+  },
+  {
+    "name": "LED Samsung UE65AU7100UXCE",
+    "popular": true,
+    "price": 69999,
+    "category": "64842310c2364657951e5721",
+    "vendor": "64842311c2364657951e5728",
+    "color": "black",
+    "description": {
+      "RAM": 2,
+      "processor": "Crystal Processor 4K",
+      "core": 2,
+      "diagonal": 65
+    }
+  },
+  {
+    "name": "LED Samsung UE85AU7100UXCE",
+    "popular": false,
+    "price": 159999,
+    "category": "64842310c2364657951e5721",
+    "vendor": "64842311c2364657951e5728",
+    "color": "black",
+    "description": {
+      "RAM": 2,
+      "processor": "Crystal Processor 4K",
+      "core": 2,
+      "diagonal": 85
+    }
+  },
+  {
+    "name": "LED Samsung UE70AU7100UXCE",
+    "popular": false,
+    "price": 90299,
+    "category": "64842310c2364657951e5721",
+    "vendor": "64842311c2364657951e5728",
+    "color": "black",
+    "description": {
+      "RAM": 2,
+      "processor": "Crystal Processor 4K",
+      "core": 2,
+      "diagonal": 70
+    }
+  },
+  {
+    "name": "LED Samsung UE55AU7100UXCE",
+    "popular": true,
+    "price": 49999,
+    "category": "64842310c2364657951e5721",
+    "vendor": "64842311c2364657951e5728",
+    "color": "black",
+    "description": {
+      "RAM": 2,
+      "processor": "Crystal Processor 4K",
+      "core": 2,
+      "diagonal": 55
     }
   }
 ]

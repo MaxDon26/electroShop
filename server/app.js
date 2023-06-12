@@ -27,8 +27,6 @@ const PORT = config.get("port") ?? 8080;
 async function start() {
   try {
     mongoose.connection.once("open", () => {
-      //   console.log(mongoose.connection.collections);
-
       initDatabase();
     });
     await mongoose.connect(config.get("mongoUri"));

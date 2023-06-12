@@ -5,9 +5,9 @@ const upload = require("../middleware/upload.middleware");
 const Controller = require("../controllers/product.controller");
 
 router.get("/", Controller.getProductList);
+router.get("/names", Controller.getProductNames);
 
-router.post("/", upload.array("image", 10), Controller.addProduct);
-
+router.post("/", upload.array("image", 10), auth, Controller.addProduct);
 router.delete("/", auth, Controller.removeProduct);
 router.patch("/:id", auth, upload.array("image", 10), Controller.updateProduct);
 
