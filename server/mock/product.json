@@ -6,6 +6,7 @@
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5729",
     "color": "white",
+    "image": ["Iphone 14 white.png"],
     "description": {
       "RAM": 6,
       "processor": "A15 Bionic",
@@ -21,6 +22,7 @@
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5729",
     "color": "black",
+    "image": ["Iphone 14 black.png"],
     "description": {
       "RAM": 6,
       "processor": "A15 Bionic",
@@ -34,6 +36,7 @@
     "popular": false,
     "price": 96990,
     "color": "black",
+    "image": ["Iphone 14 Pro black.jpg"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5729",
     "description": {
@@ -51,6 +54,7 @@
     "color": "silver",
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5729",
+    "image": ["Iphone 14 Pro silver.jpg"],
     "description": {
       "RAM": 6,
       "processor": "A16 Bionic",
@@ -66,6 +70,7 @@
     "color": "black",
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5729",
+    "image": ["Iphone 14 Pro black.jpg"],
     "description": {
       "RAM": 6,
       "processor": "A16 Bionic",
@@ -79,6 +84,7 @@
     "popular": true,
     "price": 116990,
     "color": "silver",
+    "image": ["Iphone 14 promax silver.jpg"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5729",
     "description": {
@@ -96,6 +102,7 @@
     "color": "silver",
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5729",
+    "image": ["Iphone 14 promax silver.jpg", "Iphone 14 promax silver1.webp"],
     "description": {
       "RAM": 6,
       "processor": "A16 Bionic",
@@ -111,6 +118,7 @@
     "color": "black",
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5729",
+    "image": ["Iphone 14 promax black.jpg"],
     "description": {
       "RAM": 6,
       "processor": "A16 Bionic",
@@ -126,6 +134,7 @@
     "color": "white",
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5729",
+    "image": ["Iphone 14 plus white.png"],
     "description": {
       "RAM": 6,
       "processor": "A15 Bionic",
@@ -141,6 +150,7 @@
     "color": "black",
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5729",
+    "image": ["Iphone 14 plus black.jpeg"],
     "description": {
       "RAM": 6,
       "processor": "A15 Bionic",
@@ -156,6 +166,7 @@
     "color": "black",
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5728",
+    "image": ["Samsung Galaxy A54 black.png"],
     "description": {
       "RAM": 6,
       "processor": "Samsung Exynos 1380",
@@ -169,6 +180,7 @@
     "popular": false,
     "price": 46899,
     "color": "black",
+    "image": ["Samsung Galaxy S21 black.jpg"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5728",
     "description": {
@@ -184,6 +196,7 @@
     "popular": false,
     "price": 46899,
     "color": "white",
+    "image": ["Samsung Galaxy S21 white.png"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5728",
     "description": {
@@ -199,6 +212,7 @@
     "popular": true,
     "price": 74999,
     "color": "black",
+    "image": ["Samsung Galaxy S23 black.jpg"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5728",
     "description": {
@@ -214,6 +228,7 @@
     "popular": true,
     "price": 114999,
     "color": "black",
+    "image": ["Samsung Galaxy S23 Ultra black.jpg"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5728",
     "description": {
@@ -229,6 +244,7 @@
     "popular": true,
     "price": 147499,
     "color": "black",
+    "image": ["Samsung Galaxy S23 Ultra black.jpg"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e5728",
     "description": {
@@ -244,6 +260,7 @@
     "popular": true,
     "price": 31990,
     "color": "black",
+    "image": ["Xiaomi 13 Lite black.jpg"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e572a",
     "description": {
@@ -259,6 +276,7 @@
     "popular": false,
     "price": 44990,
     "color": "black",
+    "image": ["Xiaomi 12 black.jpg"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e572a",
     "description": {
@@ -274,6 +292,7 @@
     "popular": false,
     "price": 29890,
     "color": "black",
+    "image": ["Xiaomi 12 Lite black.jpeg"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e572a",
     "description": {
@@ -289,6 +308,7 @@
     "popular": true,
     "price": 32990,
     "color": "White",
+    "image": ["Xiaomi POCO F5 white.jpg"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e572a",
     "description": {
@@ -304,6 +324,7 @@
     "popular": true,
     "price": 22990,
     "color": "White",
+    "image": ["Xiaomi Redmi Note 12 Pro white.jpg"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e572a",
     "description": {
@@ -319,6 +340,7 @@
     "popular": true,
     "price": 25490,
     "color": "Black",
+    "image": ["Xiaomi Redmi Note 12 Pro black.png"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e572a",
     "description": {
@@ -334,6 +356,7 @@
     "popular": true,
     "price": 27990,
     "color": "Silver",
+    "image": ["Xiaomi Poco X4 GT silver.jpg"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e572a",
     "description": {
@@ -349,6 +372,7 @@
     "popular": true,
     "price": 69990,
     "color": "White",
+    "image": ["HUAWEI P60 Pro white.png"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e572b",
     "description": {
@@ -364,6 +388,7 @@
     "popular": true,
     "price": 84999,
     "color": "Black",
+    "image": ["HUAWEI P60 Pro black.jpg"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e572b",
     "description": {
@@ -379,6 +404,7 @@
     "popular": true,
     "price": 69999,
     "color": "Silver",
+    "image": ["HUAWEI Mate50 Pro silver.jpg"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e572b",
     "description": {
@@ -394,6 +420,7 @@
     "popular": false,
     "price": 119999,
     "color": "Black",
+    "image": ["HUAWEI Mate Xs 2 black.jpg"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e572b",
     "description": {
@@ -409,6 +436,7 @@
     "popular": false,
     "price": 149999,
     "color": "Black",
+    "image": ["HUAWEI Mate X3 black.png"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e572b",
     "description": {
@@ -424,6 +452,7 @@
     "popular": true,
     "price": 56999,
     "color": "Black",
+    "image": ["HUAWEI Mate 50 black.jpg"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e572b",
     "description": {
@@ -439,6 +468,7 @@
     "popular": true,
     "price": 56999,
     "color": "Silver",
+    "image": ["HUAWEI Mate 50 silver.jpg"],
     "category": "64842310c2364657951e571f",
     "vendor": "64842311c2364657951e572b",
     "description": {
@@ -456,6 +486,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e5729",
     "color": "black",
+    "image": ["Apple MacBook Air black.jpg"],
     "description": {
       "RAM": 8,
       "processor": "Apple M1",
@@ -471,6 +502,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e5729",
     "color": "silver",
+    "image": ["Apple MacBook Air silver.jpg"],
     "description": {
       "RAM": 8,
       "processor": "Apple M1",
@@ -486,6 +518,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e5729",
     "color": "silver",
+    "image": ["Apple MacBook Pro silver.jpg"],
     "description": {
       "RAM": 8,
       "processor": "Apple M2",
@@ -501,6 +534,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e5729",
     "color": "silver",
+    "image": ["Apple MacBook Pro silver.jpg"],
     "description": {
       "RAM": 8,
       "processor": "Apple M2",
@@ -516,6 +550,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e572e",
     "color": "black",
+    "image": ["ASUS VivoBook PRO 14 black.jpg"],
     "description": {
       "RAM": 16,
       "processor": "AMD Ryzen 5 5600H",
@@ -531,6 +566,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e572e",
     "color": "black",
+    "image": ["ASUS VivoBook PRO 14 black.jpg"],
     "description": {
       "RAM": 16,
       "processor": "Intel Core i5-11300H",
@@ -546,6 +582,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e572e",
     "color": "black",
+    "image": ["ASUS TUF Gaming F15 black.jpg"],
     "description": {
       "RAM": 16,
       "processor": "Intel Core i5-11400H",
@@ -561,6 +598,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e572e",
     "color": "black",
+    "image": ["ASUS ZenBook 14 Flip OLED black.jpg"],
     "description": {
       "RAM": 8,
       "processor": "Intel Core i5-1135G7",
@@ -576,6 +614,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e572e",
     "color": "black",
+    "image": ["ASUS VivoBook PRO 15 OLED black.png"],
     "description": {
       "RAM": 8,
       "processor": "Intel Core i5-1135G7",
@@ -591,6 +630,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e572f",
     "color": "black",
+    "image": ["MSI Modern 15 black.jpg"],
     "description": {
       "RAM": 16,
       "processor": "Intel Core i5-1235U",
@@ -606,6 +646,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e572f",
     "color": "black",
+    "image": ["MSI Modern 14 black.jpg"],
     "description": {
       "RAM": 16,
       "processor": "Intel Core i5-1235U",
@@ -621,6 +662,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e572f",
     "color": "black",
+    "image": ["MSI Katana GF76 black.jpg"],
     "description": {
       "RAM": 16,
       "processor": "Intel Core i5-12450H",
@@ -636,6 +678,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e572f",
     "color": "black",
+    "image": ["MSI Vector GP77 black.jpg"],
     "description": {
       "RAM": 16,
       "processor": "Intel Core i7-13700H",
@@ -651,6 +694,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e572d",
     "color": "silver",
+    "image": ["Acer Aspire 3 silver.jpg"],
     "description": {
       "RAM": 8,
       "processor": "Intel Core i3-1215U",
@@ -665,7 +709,8 @@
     "price": 56999,
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e572d",
-    "color": "silver",
+    "color": "black",
+    "image": ["Acer Aspire 3 black.jpg"],
     "description": {
       "RAM": 8,
       "processor": "Intel Core i3-1215U",
@@ -681,6 +726,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e572d",
     "color": "silver",
+    "image": ["Acer Aspire 5 silver.jpg"],
     "description": {
       "RAM": 16,
       "processor": "AMD Ryzen 5 5625U",
@@ -696,6 +742,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e572d",
     "color": "black",
+    "image": ["Acer Aspire 5 black.jpg"],
     "description": {
       "RAM": 8,
       "processor": "Intel Core i5-1235U",
@@ -711,6 +758,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e572b",
     "color": "black",
+    "image": ["HUAWEI MateBook D16 RLEF-X black.jpg"],
     "description": {
       "RAM": 16,
       "processor": "Intel Core i7-12700H",
@@ -726,6 +774,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e572b",
     "color": "black",
+    "image": ["HUAWEI MateBook D 15 BoDE-WDH9 black.jpg"],
     "description": {
       "RAM": 8,
       "processor": "Intel Core i5-1155G7",
@@ -741,6 +790,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e572b",
     "color": "black",
+    "image": ["HUAWEI MateBook D 16 RLEF-W5651D black.jpg"],
     "description": {
       "RAM": 16,
       "processor": "Intel Core i5-12450H",
@@ -756,6 +806,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e572b",
     "color": "silver",
+    "image": ["HUAWEI MateBook D 16 RLEF-W5651D silver.jpg"],
     "description": {
       "RAM": 16,
       "processor": "Core i5-1135G7",
@@ -771,6 +822,7 @@
     "category": "64842310c2364657951e5720",
     "vendor": "64842311c2364657951e572b",
     "color": "black",
+    "image": ["HUAWEI MateBook 16s CREF-X black.jpg"],
     "description": {
       "RAM": 16,
       "processor": "Intel Core i9-12900H",
@@ -786,6 +838,7 @@
     "category": "64842310c2364657951e5722",
     "vendor": "64842311c2364657951e5729",
     "color": "black",
+    "image": ["Apple Watch SE 2022 40mm black.jpg"],
     "description": {
       "processor": "Apple S8",
       "core": 2,
@@ -799,6 +852,7 @@
     "category": "64842310c2364657951e5722",
     "vendor": "64842311c2364657951e5729",
     "color": "black",
+    "image": ["Apple Watch SE 2022 44mm black.jpg"],
     "description": {
       "processor": "Apple S8",
       "core": 2,
@@ -812,6 +866,7 @@
     "category": "64842310c2364657951e5722",
     "vendor": "64842311c2364657951e5729",
     "color": "silver",
+    "image": ["Apple Watch SE 2022 44mm silver.jpg"],
     "description": {
       "processor": "Apple S8",
       "core": 2,
@@ -825,6 +880,7 @@
     "category": "64842310c2364657951e5722",
     "vendor": "64842311c2364657951e5729",
     "color": "silver",
+    "image": ["Apple Watch Series 8 45mm silver.jpg"],
     "description": {
       "processor": "Apple S8",
       "core": 2,
@@ -838,6 +894,7 @@
     "category": "64842310c2364657951e5722",
     "vendor": "64842311c2364657951e5729",
     "color": "black",
+    "image": ["Apple Watch Series 8 45mm black.jpeg"],
     "description": {
       "processor": "Apple S8",
       "core": 2,
@@ -851,6 +908,7 @@
     "category": "64842310c2364657951e5722",
     "vendor": "64842311c2364657951e5729",
     "color": "black",
+    "image": ["Apple Watch Series 8 41mm black.jpg"],
     "description": {
       "processor": "Apple S8",
       "core": 2,
@@ -864,6 +922,7 @@
     "category": "64842310c2364657951e5722",
     "vendor": "64842311c2364657951e572a",
     "color": "black",
+    "image": ["Xiaomi Mi Smart Band 7 black.jpg"],
     "description": {
       "RAM": 0.008,
       "HDD": 0.128,
@@ -877,6 +936,7 @@
     "category": "64842310c2364657951e5722",
     "vendor": "64842311c2364657951e572a",
     "color": "black",
+    "image": ["Xiaomi Mi Smart Band 6 black.jpeg"],
     "description": {
       "RAM": 0.008,
       "HDD": 0.128,
@@ -890,6 +950,7 @@
     "category": "64842310c2364657951e5722",
     "vendor": "64842311c2364657951e5728",
     "color": "black",
+    "image": ["Samsung Galaxy Watch5 Pro black.png"],
     "description": {
       "RAM": 1.5,
       "processor": "Exynos W920",
@@ -905,6 +966,7 @@
     "category": "64842310c2364657951e5722",
     "vendor": "64842311c2364657951e5728",
     "color": "silver",
+    "image": ["Samsung Galaxy Watch4 Classic 46mm silver.jpg"],
     "description": {
       "RAM": 1.5,
       "processor": "Exynos W920",
@@ -920,6 +982,7 @@
     "category": "64842310c2364657951e5722",
     "vendor": "64842311c2364657951e5728",
     "color": "black",
+    "image": ["Samsung Galaxy Watch4 Classic 46mm black.jpg"],
     "description": {
       "RAM": 1.5,
       "processor": "Exynos W920",
@@ -935,6 +998,7 @@
     "category": "64842310c2364657951e5722",
     "vendor": "64842311c2364657951e5728",
     "color": "black",
+    "image": ["Samsung Galaxy Watch5 40mm black.png"],
     "description": {
       "RAM": 1.5,
       "processor": "Exynos W920",
@@ -950,6 +1014,7 @@
     "category": "64842310c2364657951e5722",
     "vendor": "64842311c2364657951e572b",
     "color": "black",
+    "image": ["HUAWEI WATCH GT 3 Pro Titanium.png"],
     "description": {
       "RAM": 1.5,
       "HDD": 16,
@@ -963,6 +1028,7 @@
     "category": "64842310c2364657951e5722",
     "vendor": "64842311c2364657951e572b",
     "color": "white",
+    "image": ["HUAWEI WATCH GT 3 42mm white.jpg"],
     "description": {
       "RAM": 1.5,
       "HDD": 16,
@@ -976,6 +1042,7 @@
     "category": "64842310c2364657951e5722",
     "vendor": "64842311c2364657951e572b",
     "color": "black",
+    "image": ["HUAWEI WATCH GT 3 42mm black.png"],
     "description": {
       "RAM": 1.5,
       "HDD": 16,
@@ -989,6 +1056,7 @@
     "category": "64842310c2364657951e5722",
     "vendor": "64842311c2364657951e572b",
     "color": "black",
+    "image": ["HUAWEI WATCH 3 Pro black.jpg"],
     "description": {
       "RAM": 2,
       "HDD": 16,
@@ -1002,6 +1070,7 @@
     "category": "64842310c2364657951e5722",
     "vendor": "64842311c2364657951e572b",
     "color": "black",
+    "image": ["HUAWEI Band 7 black.jpg"],
     "description": {
       "RAM": 0.008,
       "HDD": 0.128,
@@ -1015,6 +1084,7 @@
     "category": "64842310c2364657951e5721",
     "vendor": "64842311c2364657951e572c",
     "color": "black",
+    "image": ["OLED LG OLED black.jpg"],
     "description": {
       "RAM": 2,
       "processor": "LG a9 Gen 5",
@@ -1029,6 +1099,7 @@
     "category": "64842310c2364657951e5721",
     "vendor": "64842311c2364657951e572c",
     "color": "black",
+    "image": ["OLED LG OLED black.jpg"],
     "description": {
       "RAM": 2,
       "processor": "LG a9 Gen 5",
@@ -1043,6 +1114,7 @@
     "category": "64842310c2364657951e5721",
     "vendor": "64842311c2364657951e572c",
     "color": "black",
+    "image": ["OLED LG OLED black.jpg"],
     "description": {
       "RAM": 4,
       "processor": "LG a9 Gen 5",
@@ -1057,6 +1129,7 @@
     "category": "64842310c2364657951e5721",
     "vendor": "64842311c2364657951e572c",
     "color": "black",
+    "image": ["OLED LG OLED black.jpg"],
     "description": {
       "RAM": 4,
       "processor": "LG a9 Gen 5",
@@ -1071,6 +1144,7 @@
     "category": "64842310c2364657951e5721",
     "vendor": "64842311c2364657951e572c",
     "color": "black",
+    "image": ["LED LG black.jpg"],
     "description": {
       "RAM": 2,
       "processor": "LG a5 Gen 5",
@@ -1085,6 +1159,7 @@
     "category": "64842310c2364657951e5721",
     "vendor": "64842311c2364657951e572c",
     "color": "black",
+    "image": ["LED LG black.jpg"],
     "description": {
       "RAM": 2,
       "processor": "LG a5 Gen 5",
@@ -1099,6 +1174,7 @@
     "category": "64842310c2364657951e5721",
     "vendor": "64842311c2364657951e572c",
     "color": "black",
+    "image": ["LED LG black.jpg"],
     "description": {
       "RAM": 2,
       "processor": "LG a5 Gen 5",
@@ -1113,6 +1189,7 @@
     "category": "64842310c2364657951e5721",
     "vendor": "64842311c2364657951e572c",
     "color": "black",
+    "image": ["LED LG black.jpg"],
     "description": {
       "RAM": 2,
       "processor": "LG a5 Gen 5",
@@ -1127,6 +1204,7 @@
     "category": "64842310c2364657951e5721",
     "vendor": "64842311c2364657951e5728",
     "color": "black",
+    "image": ["LED Samsung black.jpg"],
     "description": {
       "RAM": 1,
       "processor": "Crystal Processor 4K",
@@ -1141,6 +1219,7 @@
     "category": "64842310c2364657951e5721",
     "vendor": "64842311c2364657951e5728",
     "color": "black",
+    "image": ["LED Samsung black.jpg"],
     "description": {
       "RAM": 1,
       "processor": "Crystal Processor 4K",
@@ -1155,6 +1234,7 @@
     "category": "64842310c2364657951e5721",
     "vendor": "64842311c2364657951e5728",
     "color": "black",
+    "image": ["LED Samsung black.jpg"],
     "description": {
       "RAM": 2,
       "processor": "Crystal Processor 4K",
@@ -1169,6 +1249,7 @@
     "category": "64842310c2364657951e5721",
     "vendor": "64842311c2364657951e5728",
     "color": "black",
+    "image": ["LED Samsung black.jpg"],
     "description": {
       "RAM": 2,
       "processor": "Crystal Processor 4K",
@@ -1183,6 +1264,7 @@
     "category": "64842310c2364657951e5721",
     "vendor": "64842311c2364657951e5728",
     "color": "black",
+    "image": ["LED Samsung black.jpg"],
     "description": {
       "RAM": 2,
       "processor": "Crystal Processor 4K",
@@ -1197,6 +1279,7 @@
     "category": "64842310c2364657951e5721",
     "vendor": "64842311c2364657951e5728",
     "color": "black",
+    "image": ["LED Samsung black.jpg"],
     "description": {
       "RAM": 2,
       "processor": "Crystal Processor 4K",
@@ -1211,6 +1294,7 @@
     "category": "64842310c2364657951e5721",
     "vendor": "64842311c2364657951e5728",
     "color": "black",
+    "image": ["LED Samsung black.jpg"],
     "description": {
       "RAM": 2,
       "processor": "Crystal Processor 4K",
@@ -1225,6 +1309,7 @@
     "category": "64842310c2364657951e5721",
     "vendor": "64842311c2364657951e5728",
     "color": "black",
+    "image": ["LED Samsung black.jpg"],
     "description": {
       "RAM": 2,
       "processor": "Crystal Processor 4K",

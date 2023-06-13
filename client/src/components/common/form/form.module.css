@@ -1,0 +1,11 @@
+.selectWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.select {
+  width: 100%;
+  height: 40px;
+}

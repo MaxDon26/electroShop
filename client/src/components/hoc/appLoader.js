@@ -10,7 +10,14 @@ import {
 
 const AppLoader = ({ children }) => {
   const dispatch = useDispatch();
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    dispatch(loadCategories());
+    dispatch(loadVendors());
+    dispatch(loadPopularProducts());
+    dispatch(loadProductsNames());
+  }, []);
 
   const productsLoading = useSelector(getProductsStatus());
   const categoryLoading = useSelector(getCategoryStatus());
@@ -24,14 +31,7 @@ const AppLoader = ({ children }) => {
     }
   }, [productsLoading, categoryLoading, vendorLoading]);
 
-  useEffect(() => {
-    dispatch(loadCategories());
-    dispatch(loadVendors());
-    dispatch(loadPopularProducts());
-    dispatch(loadProductsNames());
-  }, []);
-  if (isLoading) return "loading";
-  return children;
+  return !isLoading && children;
 };
 
 export default AppLoader;

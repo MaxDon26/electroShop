@@ -12,9 +12,13 @@ const productService = {
     return data;
   },
   getFiltredProduct: async (filter) => {
+    const newFilter = Object.keys(filter)
+      .filter((k) => filter[k])
+      .reduce((a, k) => ({ ...a, [k]: filter[k] }), {});
+    console.log(newFilter);
     const { data } = await httpService.get(productEndpoint, {
       params: {
-        ...filter,
+        ...newFilter,
       },
     });
     return data;

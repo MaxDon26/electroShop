@@ -6,16 +6,25 @@ import { getCategoryById } from "../../../store/category";
 import styles from "./productCard.module.css";
 import { Link } from "react-router-dom";
 import { getColor } from "../../../utils/getColor";
+import { getImageUrl } from "../../../utils/getImage";
 export const ProductCard = (props) => {
-  const { image, category: categoryId, name, color, price, _id } = props;
+  const {
+    image,
+    category: categoryId,
+    description,
+    name,
+    color,
+    price,
+    _id,
+  } = props;
   const category = useSelector(getCategoryById(categoryId));
-  console.log(props);
+
   return (
     <Box classes={styles.card}>
-      <img width={200} src={image[0]} alt="img" />
+      <img className={styles.image} src={getImageUrl(image[0])} alt="img" />
       <div className={styles.info}>
         <Link to={"products/" + _id} className={styles.name}>
-          <b>{category.name}</b> {name}
+          <b>{category.name}</b> {name}, объем памяти: {description.HDD} гб.
         </Link>
         <p> цвет: {getColor(color)}</p>
         <span>

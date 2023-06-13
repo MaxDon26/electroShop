@@ -1,20 +1,30 @@
-import { useSelector } from "react-redux";
 import AppLoader from "./components/hoc/appLoader";
 import { NavBar } from "./components/navbar";
-import { getProducts } from "./store/product";
 import { FilterProvider } from "./hooks/useFilter";
+import { Route, Routes } from "react-router-dom";
+import { ProductPage } from "./components/pages/productPage";
+import { Footer } from "./components/footer";
 import { Main } from "./layouts/main";
 
 function App() {
-  const product = useSelector(getProducts());
-  console.log(product);
   return (
-    <AppLoader>
+    <div className="app">
       <FilterProvider>
         <NavBar />
-        <Main />
+        <div className="container">
+          <main className="main">
+            <AppLoader>
+              <Routes>
+                <Route path="/" element={<Main />} />
+                {/* <Route path="/login" element={<Login />} /> */}
+                <Route path="/products/:id" element={<ProductPage />} />
+              </Routes>
+            </AppLoader>
+          </main>
+        </div>
+        <Footer />
       </FilterProvider>
-    </AppLoader>
+    </div>
   );
 }
 

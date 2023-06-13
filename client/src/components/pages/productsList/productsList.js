@@ -5,8 +5,9 @@ import { getProducts, getProductsStatus } from "../../../store/product";
 
 import { ProductCard } from "../../products/productCard";
 import style from "./productList.module.css";
+import _ from "lodash";
 
-export const ProductsList = (props) => {
+export const ProductsList = ({ sortBy }) => {
   const products = useSelector(getProducts());
 
   const isLoading = useSelector(getProductsStatus());
@@ -15,8 +16,7 @@ export const ProductsList = (props) => {
     <>
       {!isLoading && (
         <div className={style.list}>
-          Product Panel
-          {products.map((prod) => (
+          {_.orderBy(products, sortBy.path, sortBy.order).map((prod) => (
             <ProductCard key={prod._id} {...prod} />
           ))}
         </div>
@@ -25,4 +25,6 @@ export const ProductsList = (props) => {
   );
 };
 
-ProductsList.propTypes = {};
+ProductsList.propTypes = {
+  sortBy: PropTypes.object,
+};

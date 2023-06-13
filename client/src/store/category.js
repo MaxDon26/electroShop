@@ -42,6 +42,10 @@ export const getCategoryById = (id) => (state) => {
   return state.category.entities.find((el) => el._id === id);
 };
 
+export const getCategories = () => (state) => {
+  return state.category.entities;
+};
+
 export const getCategoryStatus = () => (state) => state.category.isLoading;
 
 export default categoryReducer;

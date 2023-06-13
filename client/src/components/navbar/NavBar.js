@@ -34,6 +34,7 @@ export const NavBar = () => {
   };
   const handleSubmit = () => {
     dispatch(getFiltredProducts(filtredData));
+    setViewFinder(false);
   };
 
   const filtredNames = names

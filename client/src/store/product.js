@@ -39,7 +39,7 @@ const {
 export const loadProductsNames = () => async (dispatch) => {
   try {
     const { content } = await productService.getProductsNames();
-    dispatch(namesRecieved(content));
+    dispatch(namesRecieved([...new Set(content)]));
   } catch (error) {
     dispatch(productRequestFiled(error.message));
   }
@@ -66,6 +66,9 @@ export const getFiltredProducts = (params) => async (dispatch) => {
 };
 
 export const getProducts = () => (state) => state.product.entities;
+
+export const getProductById = (id) => (state) =>
+  state.product.entities?.find((prod) => prod._id === id);
 
 export const getProductsStatus = () => (state) => state.product.isLoading;
 

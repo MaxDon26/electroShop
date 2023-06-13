@@ -6,3 +6,18 @@
   position: sticky;
   top: 0;
 }
+
+.box {
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  height: 40px;
+  background: inherit;
+  cursor: pointer;
+}
+
+.reset {
+  background-color: #f69c16;
+}
