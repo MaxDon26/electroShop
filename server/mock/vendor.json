@@ -1,10 +1,10 @@
 [
-  { "name": "Samsung" },
-  { "name": "Apple" },
-  { "name": "Xiaomi" },
-  { "name": "Huawei" },
-  { "name": "LG" },
-  { "name": "Acer" },
-  { "name": "Asus" },
-  { "name": "MSI" }
+  { "name": "Samsung", "image": "samsung.svg" },
+  { "name": "Apple", "image": "apple.webp" },
+  { "name": "Xiaomi", "image": "xiaomi.png" },
+  { "name": "Huawei", "image": "huawei.png" },
+  { "name": "LG", "image": "lg.png" },
+  { "name": "Acer", "image": "acer.png" },
+  { "name": "Asus", "image": "asus.png" },
+  { "name": "MSI", "image": "MSI.png" }
 ]

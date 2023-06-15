@@ -17,13 +17,14 @@ module.exports = async () => {
     await createInitialEntity(Vendor, vendorMock);
   }
   if (productMock.length !== product.length) {
+    console.log(productMock.length, product.length);
     await createInitialEntity(Product, productMock);
   }
 };
 
 async function createInitialEntity(Model, data) {
   await Model.collection.drop();
-
+  console.log(Model);
   return Promise.all(
     data.map(async (item) => {
       try {
@@ -31,6 +32,7 @@ async function createInitialEntity(Model, data) {
         await newItem.save();
         return newItem;
       } catch (e) {
+        console.log(e);
         return e;
       }
     })

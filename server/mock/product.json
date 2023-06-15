@@ -4,7 +4,7 @@
     "popular": false,
     "price": 69990,
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "color": "white",
     "image": ["Iphone 14 white.png"],
     "description": {
@@ -20,7 +20,7 @@
     "popular": false,
     "price": 69990,
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "color": "black",
     "image": ["Iphone 14 black.png"],
     "description": {
@@ -38,7 +38,7 @@
     "color": "black",
     "image": ["Iphone 14 Pro black.jpg"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "description": {
       "RAM": 6,
       "processor": "A16 Bionic",
@@ -53,7 +53,7 @@
     "price": 96990,
     "color": "silver",
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "image": ["Iphone 14 Pro silver.jpg"],
     "description": {
       "RAM": 6,
@@ -69,7 +69,7 @@
     "price": 126990,
     "color": "black",
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "image": ["Iphone 14 Pro black.jpg"],
     "description": {
       "RAM": 6,
@@ -86,7 +86,7 @@
     "color": "silver",
     "image": ["Iphone 14 promax silver.jpg"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "description": {
       "RAM": 6,
       "processor": "A16 Bionic",
@@ -101,7 +101,7 @@
     "price": 139990,
     "color": "silver",
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "image": ["Iphone 14 promax silver.jpg", "Iphone 14 promax silver1.webp"],
     "description": {
       "RAM": 6,
@@ -117,7 +117,7 @@
     "price": 116990,
     "color": "black",
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "image": ["Iphone 14 promax black.jpg"],
     "description": {
       "RAM": 6,
@@ -133,7 +133,7 @@
     "price": 76990,
     "color": "white",
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "image": ["Iphone 14 plus white.png"],
     "description": {
       "RAM": 6,
@@ -149,7 +149,7 @@
     "price": 85990,
     "color": "black",
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "image": ["Iphone 14 plus black.jpeg"],
     "description": {
       "RAM": 6,
@@ -165,7 +165,7 @@
     "price": 33499,
     "color": "black",
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e5728",
+    "vendor": "648afa0146479e8badb280ea",
     "image": ["Samsung Galaxy A54 black.png"],
     "description": {
       "RAM": 6,
@@ -182,7 +182,7 @@
     "color": "black",
     "image": ["Samsung Galaxy S21 black.jpg"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e5728",
+    "vendor": "648afa0146479e8badb280ea",
     "description": {
       "RAM": 8,
       "processor": "Samsung Exynos 2100",
@@ -198,7 +198,7 @@
     "color": "white",
     "image": ["Samsung Galaxy S21 white.png"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e5728",
+    "vendor": "648afa0146479e8badb280ea",
     "description": {
       "RAM": 8,
       "processor": "Samsung Exynos 2100",
@@ -214,7 +214,7 @@
     "color": "black",
     "image": ["Samsung Galaxy S23 black.jpg"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e5728",
+    "vendor": "648afa0146479e8badb280ea",
     "description": {
       "RAM": 8,
       "processor": "Qualcomm Snapdragon 8 Gen 2",
@@ -230,7 +230,7 @@
     "color": "black",
     "image": ["Samsung Galaxy S23 Ultra black.jpg"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e5728",
+    "vendor": "648afa0146479e8badb280ea",
     "description": {
       "RAM": 8,
       "processor": "Qualcomm Snapdragon 8 Gen 2",
@@ -246,7 +246,7 @@
     "color": "black",
     "image": ["Samsung Galaxy S23 Ultra black.jpg"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e5728",
+    "vendor": "648afa0146479e8badb280ea",
     "description": {
       "RAM": 8,
       "processor": "Qualcomm Snapdragon 8 Gen 2",
@@ -262,7 +262,7 @@
     "color": "black",
     "image": ["Xiaomi 13 Lite black.jpg"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e572a",
+    "vendor": "648afa0146479e8badb280ec",
     "description": {
       "RAM": 8,
       "processor": "Qualcomm Snapdragon 7 Gen 1",
@@ -278,7 +278,7 @@
     "color": "black",
     "image": ["Xiaomi 12 black.jpg"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e572a",
+    "vendor": "648afa0146479e8badb280ec",
     "description": {
       "RAM": 12,
       "processor": "Qualcomm Snapdragon 8 Gen 1",
@@ -294,7 +294,7 @@
     "color": "black",
     "image": ["Xiaomi 12 Lite black.jpeg"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e572a",
+    "vendor": "648afa0146479e8badb280ec",
     "description": {
       "RAM": 8,
       "processor": "Qualcomm Snapdragon 778G",
@@ -307,10 +307,10 @@
     "name": "Xiaomi POCO F5",
     "popular": true,
     "price": 32990,
-    "color": "White",
+    "color": "white",
     "image": ["Xiaomi POCO F5 white.jpg"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e572a",
+    "vendor": "648afa0146479e8badb280ec",
     "description": {
       "RAM": 8,
       "processor": "Qualcomm Snapdragon 7 Gen 2",
@@ -323,10 +323,10 @@
     "name": "Xiaomi Redmi Note 12 Pro",
     "popular": true,
     "price": 22990,
-    "color": "White",
+    "color": "white",
     "image": ["Xiaomi Redmi Note 12 Pro white.jpg"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e572a",
+    "vendor": "648afa0146479e8badb280ec",
     "description": {
       "RAM": 6,
       "processor": "Qualcomm Snapdragon 732G",
@@ -339,10 +339,10 @@
     "name": "Xiaomi Redmi Note 12 Pro",
     "popular": true,
     "price": 25490,
-    "color": "Black",
+    "color": "black",
     "image": ["Xiaomi Redmi Note 12 Pro black.png"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e572a",
+    "vendor": "648afa0146479e8badb280ec",
     "description": {
       "RAM": 8,
       "processor": "Qualcomm Snapdragon 732G",
@@ -355,10 +355,10 @@
     "name": "Xiaomi Poco X4 GT",
     "popular": true,
     "price": 27990,
-    "color": "Silver",
+    "color": "silver",
     "image": ["Xiaomi Poco X4 GT silver.jpg"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e572a",
+    "vendor": "648afa0146479e8badb280ec",
     "description": {
       "RAM": 8,
       "processor": "Dimensity 8100",
@@ -371,10 +371,10 @@
     "name": "HUAWEI P60 Pro",
     "popular": true,
     "price": 69990,
-    "color": "White",
+    "color": "white",
     "image": ["HUAWEI P60 Pro white.png"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e572b",
+    "vendor": "648afa0146479e8badb280ed",
     "description": {
       "RAM": 8,
       "processor": "Snapdragon 8 Gen 1",
@@ -387,10 +387,10 @@
     "name": "HUAWEI P60 Pro",
     "popular": true,
     "price": 84999,
-    "color": "Black",
+    "color": "black",
     "image": ["HUAWEI P60 Pro black.jpg"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e572b",
+    "vendor": "648afa0146479e8badb280ed",
     "description": {
       "RAM": 12,
       "processor": "Snapdragon 8 Gen 1",
@@ -403,10 +403,10 @@
     "name": "HUAWEI Mate50 Pro",
     "popular": true,
     "price": 69999,
-    "color": "Silver",
+    "color": "silver",
     "image": ["HUAWEI Mate50 Pro silver.jpg"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e572b",
+    "vendor": "648afa0146479e8badb280ed",
     "description": {
       "RAM": 8,
       "processor": "Snapdragon 8 Gen 1",
@@ -419,10 +419,10 @@
     "name": "HUAWEI Mate Xs 2",
     "popular": false,
     "price": 119999,
-    "color": "Black",
+    "color": "black",
     "image": ["HUAWEI Mate Xs 2 black.jpg"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e572b",
+    "vendor": "648afa0146479e8badb280ed",
     "description": {
       "RAM": 8,
       "processor": "Snapdragon 888",
@@ -435,10 +435,10 @@
     "name": "HUAWEI Mate X3",
     "popular": false,
     "price": 149999,
-    "color": "Black",
+    "color": "black",
     "image": ["HUAWEI Mate X3 black.png"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e572b",
+    "vendor": "648afa0146479e8badb280ed",
     "description": {
       "RAM": 12,
       "processor": "Snapdragon 8 Gen 1",
@@ -451,10 +451,10 @@
     "name": "HUAWEI Mate 50",
     "popular": true,
     "price": 56999,
-    "color": "Black",
+    "color": "black",
     "image": ["HUAWEI Mate 50 black.jpg"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e572b",
+    "vendor": "648afa0146479e8badb280ed",
     "description": {
       "RAM": 8,
       "processor": "Snapdragon 8 Gen 1",
@@ -467,10 +467,10 @@
     "name": "HUAWEI Mate 50",
     "popular": true,
     "price": 56999,
-    "color": "Silver",
+    "color": "silver",
     "image": ["HUAWEI Mate 50 silver.jpg"],
     "category": "64842310c2364657951e571f",
-    "vendor": "64842311c2364657951e572b",
+    "vendor": "648afa0146479e8badb280ed",
     "description": {
       "RAM": 8,
       "processor": "Snapdragon 8 Gen 1",
@@ -484,7 +484,7 @@
     "popular": true,
     "price": 110399,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "color": "black",
     "image": ["Apple MacBook Air black.jpg"],
     "description": {
@@ -500,7 +500,7 @@
     "popular": true,
     "price": 110399,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "color": "silver",
     "image": ["Apple MacBook Air silver.jpg"],
     "description": {
@@ -516,7 +516,7 @@
     "popular": false,
     "price": 116799,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "color": "silver",
     "image": ["Apple MacBook Pro silver.jpg"],
     "description": {
@@ -532,7 +532,7 @@
     "popular": false,
     "price": 135199,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "color": "silver",
     "image": ["Apple MacBook Pro silver.jpg"],
     "description": {
@@ -548,7 +548,7 @@
     "popular": true,
     "price": 66999,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e572e",
+    "vendor": "648afa0146479e8badb280f0",
     "color": "black",
     "image": ["ASUS VivoBook PRO 14 black.jpg"],
     "description": {
@@ -564,7 +564,7 @@
     "popular": true,
     "price": 65999,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e572e",
+    "vendor": "648afa0146479e8badb280f0",
     "color": "black",
     "image": ["ASUS VivoBook PRO 14 black.jpg"],
     "description": {
@@ -580,7 +580,7 @@
     "popular": false,
     "price": 84999,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e572e",
+    "vendor": "648afa0146479e8badb280f0",
     "color": "black",
     "image": ["ASUS TUF Gaming F15 black.jpg"],
     "description": {
@@ -596,7 +596,7 @@
     "popular": false,
     "price": 92999,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e572e",
+    "vendor": "648afa0146479e8badb280f0",
     "color": "black",
     "image": ["ASUS ZenBook 14 Flip OLED black.jpg"],
     "description": {
@@ -612,7 +612,7 @@
     "popular": true,
     "price": 57999,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e572e",
+    "vendor": "648afa0146479e8badb280f0",
     "color": "black",
     "image": ["ASUS VivoBook PRO 15 OLED black.png"],
     "description": {
@@ -628,7 +628,7 @@
     "popular": true,
     "price": 57999,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e572f",
+    "vendor": "648afa0146479e8badb280f1",
     "color": "black",
     "image": ["MSI Modern 15 black.jpg"],
     "description": {
@@ -644,7 +644,7 @@
     "popular": true,
     "price": 46499,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e572f",
+    "vendor": "648afa0146479e8badb280f1",
     "color": "black",
     "image": ["MSI Modern 14 black.jpg"],
     "description": {
@@ -660,7 +660,7 @@
     "popular": false,
     "price": 85999,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e572f",
+    "vendor": "648afa0146479e8badb280f1",
     "color": "black",
     "image": ["MSI Katana GF76 black.jpg"],
     "description": {
@@ -676,7 +676,7 @@
     "popular": false,
     "price": 188599,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e572f",
+    "vendor": "648afa0146479e8badb280f1",
     "color": "black",
     "image": ["MSI Vector GP77 black.jpg"],
     "description": {
@@ -692,7 +692,7 @@
     "popular": true,
     "price": 56999,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e572d",
+    "vendor": "648afa0146479e8badb280ef",
     "color": "silver",
     "image": ["Acer Aspire 3 silver.jpg"],
     "description": {
@@ -708,7 +708,7 @@
     "popular": true,
     "price": 56999,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e572d",
+    "vendor": "648afa0146479e8badb280ef",
     "color": "black",
     "image": ["Acer Aspire 3 black.jpg"],
     "description": {
@@ -724,7 +724,7 @@
     "popular": false,
     "price": 62999,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e572d",
+    "vendor": "648afa0146479e8badb280ef",
     "color": "silver",
     "image": ["Acer Aspire 5 silver.jpg"],
     "description": {
@@ -740,7 +740,7 @@
     "popular": false,
     "price": 64999,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e572d",
+    "vendor": "648afa0146479e8badb280ef",
     "color": "black",
     "image": ["Acer Aspire 5 black.jpg"],
     "description": {
@@ -756,7 +756,7 @@
     "popular": true,
     "price": 89999,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e572b",
+    "vendor": "648afa0146479e8badb280ed",
     "color": "black",
     "image": ["HUAWEI MateBook D16 RLEF-X black.jpg"],
     "description": {
@@ -772,7 +772,7 @@
     "popular": true,
     "price": 49999,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e572b",
+    "vendor": "648afa0146479e8badb280ed",
     "color": "black",
     "image": ["HUAWEI MateBook D 15 BoDE-WDH9 black.jpg"],
     "description": {
@@ -788,7 +788,7 @@
     "popular": true,
     "price": 69999,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e572b",
+    "vendor": "648afa0146479e8badb280ed",
     "color": "black",
     "image": ["HUAWEI MateBook D 16 RLEF-W5651D black.jpg"],
     "description": {
@@ -804,7 +804,7 @@
     "popular": true,
     "price": 59999,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e572b",
+    "vendor": "648afa0146479e8badb280ed",
     "color": "silver",
     "image": ["HUAWEI MateBook D 16 RLEF-W5651D silver.jpg"],
     "description": {
@@ -820,7 +820,7 @@
     "popular": true,
     "price": 124999,
     "category": "64842310c2364657951e5720",
-    "vendor": "64842311c2364657951e572b",
+    "vendor": "648afa0146479e8badb280ed",
     "color": "black",
     "image": ["HUAWEI MateBook 16s CREF-X black.jpg"],
     "description": {
@@ -836,7 +836,7 @@
     "popular": true,
     "price": 26699,
     "category": "64842310c2364657951e5722",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "color": "black",
     "image": ["Apple Watch SE 2022 40mm black.jpg"],
     "description": {
@@ -850,7 +850,7 @@
     "popular": true,
     "price": 28499,
     "category": "64842310c2364657951e5722",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "color": "black",
     "image": ["Apple Watch SE 2022 44mm black.jpg"],
     "description": {
@@ -864,7 +864,7 @@
     "popular": true,
     "price": 28499,
     "category": "64842310c2364657951e5722",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "color": "silver",
     "image": ["Apple Watch SE 2022 44mm silver.jpg"],
     "description": {
@@ -878,7 +878,7 @@
     "popular": false,
     "price": 41199,
     "category": "64842310c2364657951e5722",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "color": "silver",
     "image": ["Apple Watch Series 8 45mm silver.jpg"],
     "description": {
@@ -892,7 +892,7 @@
     "popular": false,
     "price": 41199,
     "category": "64842310c2364657951e5722",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "color": "black",
     "image": ["Apple Watch Series 8 45mm black.jpeg"],
     "description": {
@@ -906,7 +906,7 @@
     "popular": false,
     "price": 38649,
     "category": "64842310c2364657951e5722",
-    "vendor": "64842311c2364657951e5729",
+    "vendor": "648afa0146479e8badb280eb",
     "color": "black",
     "image": ["Apple Watch Series 8 41mm black.jpg"],
     "description": {
@@ -920,7 +920,7 @@
     "popular": true,
     "price": 2999,
     "category": "64842310c2364657951e5722",
-    "vendor": "64842311c2364657951e572a",
+    "vendor": "648afa0146479e8badb280ec",
     "color": "black",
     "image": ["Xiaomi Mi Smart Band 7 black.jpg"],
     "description": {
@@ -934,7 +934,7 @@
     "popular": true,
     "price": 1999,
     "category": "64842310c2364657951e5722",
-    "vendor": "64842311c2364657951e572a",
+    "vendor": "648afa0146479e8badb280ec",
     "color": "black",
     "image": ["Xiaomi Mi Smart Band 6 black.jpeg"],
     "description": {
@@ -948,7 +948,7 @@
     "popular": false,
     "price": 29999,
     "category": "64842310c2364657951e5722",
-    "vendor": "64842311c2364657951e5728",
+    "vendor": "648afa0146479e8badb280ea",
     "color": "black",
     "image": ["Samsung Galaxy Watch5 Pro black.png"],
     "description": {
@@ -964,7 +964,7 @@
     "popular": true,
     "price": 18999,
     "category": "64842310c2364657951e5722",
-    "vendor": "64842311c2364657951e5728",
+    "vendor": "648afa0146479e8badb280ea",
     "color": "silver",
     "image": ["Samsung Galaxy Watch4 Classic 46mm silver.jpg"],
     "description": {
@@ -980,7 +980,7 @@
     "popular": false,
     "price": 18999,
     "category": "64842310c2364657951e5722",
-    "vendor": "64842311c2364657951e5728",
+    "vendor": "648afa0146479e8badb280ea",
     "color": "black",
     "image": ["Samsung Galaxy Watch4 Classic 46mm black.jpg"],
     "description": {
@@ -996,7 +996,7 @@
     "popular": true,
     "price": 16999,
     "category": "64842310c2364657951e5722",
-    "vendor": "64842311c2364657951e5728",
+    "vendor": "648afa0146479e8badb280ea",
     "color": "black",
     "image": ["Samsung Galaxy Watch5 40mm black.png"],
     "description": {
@@ -1012,7 +1012,7 @@
     "popular": false,
     "price": 20999,
     "category": "64842310c2364657951e5722",
-    "vendor": "64842311c2364657951e572b",
+    "vendor": "648afa0146479e8badb280ed",
     "color": "black",
     "image": ["HUAWEI WATCH GT 3 Pro Titanium.png"],
     "description": {
@@ -1026,7 +1026,7 @@
     "popular": true,
     "price": 16999,
     "category": "64842310c2364657951e5722",
-    "vendor": "64842311c2364657951e572b",
+    "vendor": "648afa0146479e8badb280ed",
     "color": "white",
     "image": ["HUAWEI WATCH GT 3 42mm white.jpg"],
     "description": {
@@ -1040,7 +1040,7 @@
     "popular": true,
     "price": 16999,
     "category": "64842310c2364657951e5722",
-    "vendor": "64842311c2364657951e572b",
+    "vendor": "648afa0146479e8badb280ed",
     "color": "black",
     "image": ["HUAWEI WATCH GT 3 42mm black.png"],
     "description": {
@@ -1054,7 +1054,7 @@
     "popular": false,
     "price": 29999,
     "category": "64842310c2364657951e5722",
-    "vendor": "64842311c2364657951e572b",
+    "vendor": "648afa0146479e8badb280ed",
     "color": "black",
     "image": ["HUAWEI WATCH 3 Pro black.jpg"],
     "description": {
@@ -1068,7 +1068,7 @@
     "popular": true,
     "price": 2999,
     "category": "64842310c2364657951e5722",
-    "vendor": "64842311c2364657951e572b",
+    "vendor": "648afa0146479e8badb280ed",
     "color": "black",
     "image": ["HUAWEI Band 7 black.jpg"],
     "description": {
@@ -1082,7 +1082,7 @@
     "popular": true,
     "price": 129999,
     "category": "64842310c2364657951e5721",
-    "vendor": "64842311c2364657951e572c",
+    "vendor": "648afa0146479e8badb280ee",
     "color": "black",
     "image": ["OLED LG OLED black.jpg"],
     "description": {
@@ -1097,7 +1097,7 @@
     "popular": false,
     "price": 159999,
     "category": "64842310c2364657951e5721",
-    "vendor": "64842311c2364657951e572c",
+    "vendor": "648afa0146479e8badb280ee",
     "color": "black",
     "image": ["OLED LG OLED black.jpg"],
     "description": {
@@ -1112,7 +1112,7 @@
     "popular": false,
     "price": 219999,
     "category": "64842310c2364657951e5721",
-    "vendor": "64842311c2364657951e572c",
+    "vendor": "648afa0146479e8badb280ee",
     "color": "black",
     "image": ["OLED LG OLED black.jpg"],
     "description": {
@@ -1127,7 +1127,7 @@
     "popular": false,
     "price": 307999,
     "category": "64842310c2364657951e5721",
-    "vendor": "64842311c2364657951e572c",
+    "vendor": "648afa0146479e8badb280ee",
     "color": "black",
     "image": ["OLED LG OLED black.jpg"],
     "description": {
@@ -1142,7 +1142,7 @@
     "popular": true,
     "price": 40499,
     "category": "64842310c2364657951e5721",
-    "vendor": "64842311c2364657951e572c",
+    "vendor": "648afa0146479e8badb280ee",
     "color": "black",
     "image": ["LED LG black.jpg"],
     "description": {
@@ -1157,7 +1157,7 @@
     "popular": true,
     "price": 64999,
     "category": "64842310c2364657951e5721",
-    "vendor": "64842311c2364657951e572c",
+    "vendor": "648afa0146479e8badb280ee",
     "color": "black",
     "image": ["LED LG black.jpg"],
     "description": {
@@ -1172,7 +1172,7 @@
     "popular": true,
     "price": 49499,
     "category": "64842310c2364657951e5721",
-    "vendor": "64842311c2364657951e572c",
+    "vendor": "648afa0146479e8badb280ee",
     "color": "black",
     "image": ["LED LG black.jpg"],
     "description": {
@@ -1187,7 +1187,7 @@
     "popular": false,
     "price": 82999,
     "category": "64842310c2364657951e5721",
-    "vendor": "64842311c2364657951e572c",
+    "vendor": "648afa0146479e8badb280ee",
     "color": "black",
     "image": ["LED LG black.jpg"],
     "description": {
@@ -1202,7 +1202,7 @@
     "popular": false,
     "price": 38799,
     "category": "64842310c2364657951e5721",
-    "vendor": "64842311c2364657951e5728",
+    "vendor": "648afa0146479e8badb280ea",
     "color": "black",
     "image": ["LED Samsung black.jpg"],
     "description": {
@@ -1217,7 +1217,7 @@
     "popular": false,
     "price": 42999,
     "category": "64842310c2364657951e5721",
-    "vendor": "64842311c2364657951e5728",
+    "vendor": "648afa0146479e8badb280ea",
     "color": "black",
     "image": ["LED Samsung black.jpg"],
     "description": {
@@ -1232,7 +1232,7 @@
     "popular": true,
     "price": 59999,
     "category": "64842310c2364657951e5721",
-    "vendor": "64842311c2364657951e5728",
+    "vendor": "648afa0146479e8badb280ea",
     "color": "black",
     "image": ["LED Samsung black.jpg"],
     "description": {
@@ -1247,7 +1247,7 @@
     "popular": false,
     "price": 99999,
     "category": "64842310c2364657951e5721",
-    "vendor": "64842311c2364657951e5728",
+    "vendor": "648afa0146479e8badb280ea",
     "color": "black",
     "image": ["LED Samsung black.jpg"],
     "description": {
@@ -1262,7 +1262,7 @@
     "popular": true,
     "price": 69999,
     "category": "64842310c2364657951e5721",
-    "vendor": "64842311c2364657951e5728",
+    "vendor": "648afa0146479e8badb280ea",
     "color": "black",
     "image": ["LED Samsung black.jpg"],
     "description": {
@@ -1277,7 +1277,7 @@
     "popular": false,
     "price": 159999,
     "category": "64842310c2364657951e5721",
-    "vendor": "64842311c2364657951e5728",
+    "vendor": "648afa0146479e8badb280ea",
     "color": "black",
     "image": ["LED Samsung black.jpg"],
     "description": {
@@ -1292,7 +1292,7 @@
     "popular": false,
     "price": 90299,
     "category": "64842310c2364657951e5721",
-    "vendor": "64842311c2364657951e5728",
+    "vendor": "648afa0146479e8badb280ea",
     "color": "black",
     "image": ["LED Samsung black.jpg"],
     "description": {
@@ -1307,7 +1307,7 @@
     "popular": true,
     "price": 49999,
     "category": "64842310c2364657951e5721",
-    "vendor": "64842311c2364657951e5728",
+    "vendor": "648afa0146479e8badb280ea",
     "color": "black",
     "image": ["LED Samsung black.jpg"],
     "description": {

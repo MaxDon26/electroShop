@@ -15,7 +15,7 @@ module.exports = async (req, res, next) => {
     const data = tokenService.validateAccess(token);
     const user = await userService.getUser(data._id);
 
-    if (!user) {
+    if (!user && user.role !== "admin") {
       return res.status(401).json({ message: "Unauthorized" });
     }
     req.user = data;

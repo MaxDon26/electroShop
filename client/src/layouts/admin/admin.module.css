@@ -9,3 +9,7 @@
 .wrapper {
   display: flex;
 }
+
+.main {
+  margin-top: 40px;
+}

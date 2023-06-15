@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+}
+
+.submit {
+  cursor: pointer;
+  background-color: #df7c37;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.submit:disabled {
+  background-color: rgb(132, 132, 132);
+}
+
+.reg {
+  cursor: pointer;
+}

@@ -2,6 +2,7 @@ const express = require("express");
 const { check } = require("express-validator");
 const router = express.Router({ mergeParams: true });
 const Controller = require("../controllers/auth.controller");
+const tokenService = require("../services/token.service");
 
 router.post("/signUp", [
   check("email", "Некорректный email").isEmail(),
@@ -23,6 +24,7 @@ router.post("/token", async (req, res) => {
   try {
     const { refresh_token: refreshToken } = req.body;
     const data = tokenService.validateRefresh(refreshToken);
+    console.log(data);
     const dbToken = await tokenService.findToken(refreshToken);
 
     if (isTokenInvalid(data, dbToken)) {

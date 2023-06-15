@@ -1,13 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Box } from "../../common/box";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { getCategoryById } from "../../../store/category";
 import styles from "./productCard.module.css";
 import { Link } from "react-router-dom";
 import { getColor } from "../../../utils/getColor";
 import { getImageUrl } from "../../../utils/getImage";
+import { addOrder } from "../../../store/product";
 export const ProductCard = (props) => {
+  const dispatch = useDispatch();
   const {
     image,
     category: categoryId,
@@ -33,6 +35,14 @@ export const ProductCard = (props) => {
       </div>
       <div className={styles.buy}>
         <span className={styles.price}>{price} Р.</span>
+        <button
+          onClick={() => {
+            dispatch(addOrder(_id));
+          }}
+          className={styles.submit}
+        >
+          Добавить в корзину
+        </button>
       </div>
     </Box>
   );

@@ -23,7 +23,8 @@ export const SortingPanel = ({ sort }) => {
       <label>Сортировать по: </label>
       <select
         className={style.sorting}
-        value={sort.sortBy.path}
+        defaultValue="popular"
+        // value={sort.sortBy.path}
         onChange={handleSort}
       >
         {sortedVariant.map((variant) => (

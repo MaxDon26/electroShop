@@ -9,22 +9,23 @@ exports.signUp = async (req, res) => {
     if (!errors.isEmpty()) {
       return res.status(400).json({
         error: {
-          message: "INVALID_DATA",
+          message: errors.array()[0].msg,
           code: 400,
-          // errors: errors.array()
+          path: errors.array()[0].path,
         },
       });
     }
 
-    const { email, password } = req.body;
+    const { email, password, isAdmin } = req.body;
 
     const exitingUser = await User.findOne({ email });
 
     if (exitingUser) {
       return res.status(400).json({
         error: {
-          message: "EMAIL_EXISTS",
+          message: "Пользователь с таким email уже зарегистрирован",
           code: 400,
+          path: "email",
         },
       });
     }
@@ -33,13 +34,14 @@ exports.signUp = async (req, res) => {
 
     const newUser = await User.create({
       ...req.body,
+      role: isAdmin ? "admin" : "user",
       password: hashedPassword,
     });
 
     const tokens = tokenService.generate({ _id: newUser._id });
     await tokenService.save(newUser._id, tokens.refreshToken);
 
-    res.status(201).send({ ...tokens, userId: newUser._id });
+    res.status(201).send({ ...tokens, userId: newUser._id, user: newUser });
   } catch (e) {
     res.status(500).json({
       message: "На сервере произошла ошибка. Попробуйте позже",
@@ -66,8 +68,9 @@ exports.signIn = async (req, res) => {
     if (!existingUser) {
       return res.status(400).send({
         error: {
-          message: "EMAIL_NOT_FOUND",
+          message: "Email не найден",
           code: 400,
+          path: "email",
         },
       });
     }
@@ -80,8 +83,9 @@ exports.signIn = async (req, res) => {
     if (!isPasswordEqual) {
       return res.status(400).send({
         error: {
-          message: "INVALID_PASSWORD",
+          message: "Неверный пароль",
           code: 400,
+          path: "password",
         },
       });
     }
@@ -89,7 +93,9 @@ exports.signIn = async (req, res) => {
     const tokens = tokenService.generate({ _id: existingUser._id });
     await tokenService.save(existingUser._id, tokens.refreshToken);
 
-    res.status(200).send({ ...tokens, userId: existingUser._id });
+    res
+      .status(200)
+      .send({ ...tokens, userId: existingUser._id, user: existingUser });
   } catch (e) {
     res.status(500).json({
       message: "На сервере произошла ошибка. Попробуйте позже",

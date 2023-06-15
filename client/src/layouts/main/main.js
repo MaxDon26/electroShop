@@ -6,8 +6,9 @@ import { SortingPanel } from "../../components/products/sortingPanel";
 
 export const Main = () => {
   const [sortBy, setSortBy] = useState({ path: "popular", order: "asc" });
+
   return (
-    <main className={style.main}>
+    <div className={style.main}>
       <div className="container">
         <div className={style.wrapper}>
           <FilterPanel />
@@ -17,6 +18,6 @@ export const Main = () => {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 };

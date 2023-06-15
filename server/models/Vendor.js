@@ -6,6 +6,7 @@ const schema = new Schema(
       type: String,
       required: true,
     },
+    image: String,
   },
   { timestamps: true }
 );

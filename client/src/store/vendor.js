@@ -43,7 +43,7 @@ export const getVendors = () => (state) => {
   return state.vendor.entities;
 };
 export const getVendorById = (id) => (state) => {
-  return state.vendor.entities?.find((el) => el._id === id);
+  return state.vendor.entities.find((el) => el._id === id);
 };
 
 export default vendorReducer;

@@ -1,22 +1,35 @@
 import logo from "../../assets/logo.png";
-import { Search, Cart4, BoxArrowRight } from "react-bootstrap-icons";
-import TextField from "../common/form/TextField";
+import {
+  Search,
+  Cart4,
+  BoxArrowRight,
+  Clipboard2Data,
+  BoxArrowInRight,
+} from "react-bootstrap-icons";
+
 import styles from "./NavBar.module.css";
 import { Button } from "./button";
 import { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import { useDispatch, useSelector } from "react-redux";
-import { getFiltredProducts, loadPopularProducts } from "../../store/product";
+import { getFiltredProducts, toggleBasket } from "../../store/product";
 import { useFilter } from "../../hooks/useFilter";
+import { getIsLoggedIn, getUserRole, logOut } from "../../store/auth";
 
 export const NavBar = () => {
   const { handleFiltredChange, filtredData } = useFilter();
   const searchValue = filtredData.name ?? "";
+  const isLoggedIn = useSelector(getIsLoggedIn());
+  const isAdmin = useSelector(getUserRole()) === "admin" ? true : false;
+  const names = useSelector((state) => state.product.names);
 
   const [selectedValue, setSelectedValue] = useState(null);
   const [viewFinder, setViewFinder] = useState(false);
   const dispatch = useDispatch();
-  const names = useSelector((state) => state.product.names);
+
+  const handleLogout = () => {
+    dispatch(logOut());
+  };
 
   const handleClick = ({ target }) => {
     const name = target.getAttribute("name");
@@ -57,6 +70,10 @@ export const NavBar = () => {
       filtredNames={filtredNames}
       viewFinder={viewFinder}
       handleClick={handleClick}
+      isLoggedIn={isLoggedIn}
+      handleLogout={handleLogout}
+      isAdmin={isAdmin}
+      dispatch={dispatch}
     />
   );
 };
@@ -68,6 +85,10 @@ const NavBarLayout = ({
   handleClick,
   filtredNames,
   viewFinder,
+  isLoggedIn,
+  handleLogout,
+  isAdmin,
+  dispatch,
 }) => (
   <header className={styles.header}>
     <div className="container">
@@ -77,7 +98,7 @@ const NavBarLayout = ({
         </Button>
 
         <div className={styles.searchWrapper}>
-          <TextField
+          <input
             name="name"
             value={searchValue}
             onChange={handleSearch}
@@ -111,12 +132,25 @@ const NavBarLayout = ({
         </div>
 
         <div className={styles.btnsWrapper}>
-          <Button to="/cart" desc="Корзина">
+          <Button onClick={() => dispatch(toggleBasket())} desc="Корзина">
             <Cart4 size={40} color="#4e4e4e" />
           </Button>
-          <Button to="/login" desc="Войти">
-            <BoxArrowRight size={40} color="#4e4e4e" />
-          </Button>
+          {isLoggedIn ? (
+            <>
+              <Button onClick={handleLogout} desc="Выйти">
+                <BoxArrowRight size={40} color="#4e4e4e" />
+              </Button>
+              {isAdmin && (
+                <Button to="/admin" desc="Админ панель">
+                  <Clipboard2Data size={40} color="#4e4e4e" />
+                </Button>
+              )}
+            </>
+          ) : (
+            <Button to="/login" desc="Войти">
+              <BoxArrowInRight size={40} color="#4e4e4e" />
+            </Button>
+          )}
         </div>
       </nav>
     </div>
@@ -130,4 +164,7 @@ NavBarLayout.propTypes = {
   filtredNames: PropTypes.arrayOf(PropTypes.string),
   viewFinder: PropTypes.bool,
   handleClick: PropTypes.func,
+  isLoggedIn: PropTypes.bool,
+  handleLogout: PropTypes.func,
+  isAdmin: PropTypes.bool,
 };

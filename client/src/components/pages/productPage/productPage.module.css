@@ -1,5 +1,6 @@
 .images {
   display: flex;
+  gap: 10px;
 }
 
 .imagesList {
@@ -16,6 +17,62 @@
 }
 
 .mainImage {
-  width: 400px;
+  width: 300px;
   height: 400px;
+}
+
+.name {
+  font-size: 32px;
+}
+
+.info {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.info ul {
+  padding: 0;
+}
+
+.info li {
+  list-style: none;
+}
+
+.buy {
+  height: fit-content;
+  width: 25%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 26px;
+  background-color: #f6f6f6;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.submit {
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+
+  width: 80px;
+  background: #df7c37;
+  transition: 0.3s;
+  width: 40%;
+}
+
+.submit:hover {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 4px rgba(0, 0, 0, 0.04),
+    0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.vendor {
+  width: fit-content;
+  overflow: hidden;
 }

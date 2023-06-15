@@ -18,6 +18,7 @@ body {
 
 .main {
   flex-grow: 1;
+  margin-top: 40px;
 }
 
 code {
@@ -28,4 +29,9 @@ code {
 .container {
   margin: 0 auto;
   width: 1200px;
+  flex-grow: 1;
+}
+
+h2 {
+  margin: 0.5rem 0;
 }
