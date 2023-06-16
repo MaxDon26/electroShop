@@ -12,7 +12,11 @@ import { Button } from "./button";
 import { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import { useDispatch, useSelector } from "react-redux";
-import { getFiltredProducts, toggleBasket } from "../../store/product";
+import {
+  getFiltredProducts,
+  getOrder,
+  toggleBasket,
+} from "../../store/product";
 import { useFilter } from "../../hooks/useFilter";
 import { getIsLoggedIn, getUserRole, logOut } from "../../store/auth";
 
@@ -22,6 +26,7 @@ export const NavBar = () => {
   const isLoggedIn = useSelector(getIsLoggedIn());
   const isAdmin = useSelector(getUserRole()) === "admin" ? true : false;
   const names = useSelector((state) => state.product.names);
+  const order = useSelector(getOrder());
 
   const [selectedValue, setSelectedValue] = useState(null);
   const [viewFinder, setViewFinder] = useState(false);
@@ -74,6 +79,7 @@ export const NavBar = () => {
       handleLogout={handleLogout}
       isAdmin={isAdmin}
       dispatch={dispatch}
+      order={order}
     />
   );
 };
@@ -89,73 +95,80 @@ const NavBarLayout = ({
   handleLogout,
   isAdmin,
   dispatch,
-}) => (
-  <header className={styles.header}>
-    <div className="container">
-      <nav className={styles.nav}>
-        <Button to="/">
-          <img className={styles.logo} src={logo} alt="logo" />
-        </Button>
+  order,
+}) => {
+  const count = order.reduce((acc, item) => acc + item.count, 0);
 
-        <div className={styles.searchWrapper}>
-          <input
-            name="name"
-            value={searchValue}
-            onChange={handleSearch}
-            placeholder="Искать на сайте"
-            className={styles.search}
-          />
-          <button
-            onClick={handleSubmit}
-            role="button"
-            className={styles.searchBtn}
-          >
-            <Search size={40} color="#fff" />
-          </button>
-
-          {viewFinder && searchValue && (
-            <div className={styles.finded}>
-              <ul className={styles.list}>
-                {filtredNames.map((el) => (
-                  <li
-                    name="name"
-                    key={el}
-                    onClick={handleClick}
-                    className={styles.link}
-                  >
-                    {el}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-        </div>
-
-        <div className={styles.btnsWrapper}>
-          <Button onClick={() => dispatch(toggleBasket())} desc="Корзина">
-            <Cart4 size={40} color="#4e4e4e" />
+  return (
+    <header className={styles.header}>
+      <div className="container">
+        <nav className={styles.nav}>
+          <Button to="/">
+            <img className={styles.logo} src={logo} alt="logo" />
           </Button>
-          {isLoggedIn ? (
-            <>
-              <Button onClick={handleLogout} desc="Выйти">
-                <BoxArrowRight size={40} color="#4e4e4e" />
-              </Button>
-              {isAdmin && (
-                <Button to="/admin" desc="Админ панель">
-                  <Clipboard2Data size={40} color="#4e4e4e" />
-                </Button>
-              )}
-            </>
-          ) : (
-            <Button to="/login" desc="Войти">
-              <BoxArrowInRight size={40} color="#4e4e4e" />
+
+          <div className={styles.searchWrapper}>
+            <input
+              name="name"
+              value={searchValue}
+              onChange={handleSearch}
+              placeholder="Искать на сайте"
+              className={styles.search}
+            />
+            <button
+              onClick={handleSubmit}
+              role="button"
+              className={styles.searchBtn}
+            >
+              <Search size={40} color="#fff" />
+            </button>
+
+            {viewFinder && searchValue && (
+              <div className={styles.finded}>
+                <ul className={styles.list}>
+                  {filtredNames.map((el) => (
+                    <li
+                      name="name"
+                      key={el}
+                      onClick={handleClick}
+                      className={styles.link}
+                    >
+                      {el}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+
+          <div className={styles.btnsWrapper}>
+            <Button onClick={() => dispatch(toggleBasket())} desc="Корзина">
+              <Cart4 size={40} color="#4e4e4e" />
+              {count > 0 && <div className={styles.cartCount}>{count}</div>}
             </Button>
-          )}
-        </div>
-      </nav>
-    </div>
-  </header>
-);
+
+            {isLoggedIn ? (
+              <>
+                <Button onClick={handleLogout} desc="Выйти">
+                  <BoxArrowRight size={40} color="#4e4e4e" />
+                </Button>
+                {isAdmin && (
+                  <Button to="/admin" desc="Админ панель">
+                    <Clipboard2Data size={40} color="#4e4e4e" />
+                  </Button>
+                )}
+              </>
+            ) : (
+              <Button to="/login" desc="Войти">
+                <BoxArrowInRight size={40} color="#4e4e4e" />
+              </Button>
+            )}
+          </div>
+        </nav>
+      </div>
+    </header>
+  );
+};
 
 NavBarLayout.propTypes = {
   searchValue: PropTypes.string,

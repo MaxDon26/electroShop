@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Router } from "react-router-dom";
 import { createStore } from "./store/createStore";
 import { Provider } from "react-redux";
+import "bootstrap/dist/css/bootstrap.css";
 
 const store = createStore();
 

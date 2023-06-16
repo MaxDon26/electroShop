@@ -12,8 +12,6 @@ export const Basket = () => {
 
   const sum = order.reduce((acc, ord) => acc + ord.price * ord.count, 0);
 
-  console.log(sum);
-
   const handleToggle = ({ target }) => {
     if (target.closest(`.${basket.current.className}`) !== basket.current) {
       dispatch(toggleBasket());

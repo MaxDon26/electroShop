@@ -35,3 +35,28 @@ code {
 h2 {
   margin: 0.5rem 0;
 }
+
+.pagination > li > a {
+  background-color: white;
+  color: #000;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+  color: #5a5a5a;
+  background-color: #eee;
+  border-color: #ddd;
+}
+
+.pagination > .active > a {
+  color: white;
+  background-color: #df7c37 !important;
+  border: solid 1px #df7c37 !important;
+}
+
+.pagination > .active > a:hover {
+  background-color: #df7c37 !important;
+  border: solid 1px #df7c37;
+}
